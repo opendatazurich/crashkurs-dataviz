@@ -1,5 +1,20 @@
 ---
 ---
+
+section {
+	width: 690px;
+}
+
+@media print, screen and (max-width: 1060px) {
+	section: max-width: 700px;
+}
+
+@media print, screen and (max-width: 720px) {
+	section {
+		width: auto;
+	}
+}
+
 @import "{{ site.theme }}";
 
 body {
@@ -10,9 +25,13 @@ header {
 	background: #0E2B56;
 }
 
-section {
-	width: 690px;
+
+
+nav {
+  width: 280px;
+  margin-left: -620px;
 }
+
 
 #banner {
 	background: #1F52A3;
