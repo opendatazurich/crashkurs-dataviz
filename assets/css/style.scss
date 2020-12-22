@@ -58,6 +58,10 @@ nav {
   margin-left: -620px;
 }
 
+nav ul a {
+	color: #737373;
+}
+
 #banner {
 	background: #0f059c;
 	border: none;
@@ -67,7 +71,7 @@ nav {
 		background-color: #070046;
 	}
 	.button {
-		border: 1px solid #cccccc;
+		border: 1px solid #737373;
 		background: #070046;
 		
 		&:hover {
@@ -75,7 +79,7 @@ nav {
 		}
 	}
 	strong {
-		color: #f3f3f3;
+		color: #fff;
 	}
 }
 
