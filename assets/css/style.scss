@@ -1,0 +1,23 @@
+---
+---
+@import "{{ site.theme }}";
+
+header {
+	background: #0E2B56;
+}
+
+#banner {
+	background: #1F52A3;
+	border: none;
+	
+	.fork {
+		background-color: #0E2B56;
+	}
+	.button {
+		border: 1px solid #cccccc;
+		background: #0E2B56;
+	}
+	strong {
+		color: #f3f3f3;
+	}
+}
