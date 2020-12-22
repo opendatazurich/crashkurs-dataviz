@@ -1,8 +1,3 @@
----
-layout: default
-title: Crashkurs «Datenvisualisierung»
----
-
 # Daten finden und beziehen
 
 Für diesen Kurs verwenden wir CSV-Dateien.
