@@ -5,12 +5,13 @@
 
 section {
 	width: 690px;
+	color: #ebf1ff;
 }
 
 
 .container {
   margin: 0 auto;
-  width: 690px;
+  width: 990px;
 }
 
 
@@ -36,11 +37,12 @@ section {
 }
 
 body {
-	background: url(../images/body-background.png) #ececec;
+	background: url(../images/body-background.png) #fff;
+	font-family: HelveticaNeueLTW01_55Roman,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 header {
-	background: #0E2B56;
+	background: #070046;
 	
 	img {
 		display: inline;
@@ -57,16 +59,16 @@ nav {
 }
 
 #banner {
-	background: #1F52A3;
+	background: #0f059c;
 	border: none;
 	margin-right: -482px;
 	
 	.fork {
-		background-color: #0E2B56;
+		background-color: #070046;
 	}
 	.button {
 		border: 1px solid #cccccc;
-		background: #0E2B56;
+		background: #070046;
 		
 		&:hover {
 			background: #666;
