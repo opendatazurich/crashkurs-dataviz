@@ -2,6 +2,10 @@
 ---
 @import "{{ site.theme }}";
 
+body {
+	background: url(../images/body-background.png) #ececec;
+}
+
 header {
 	background: #0E2B56;
 }
@@ -31,6 +35,6 @@ section {
 	}
 }
 
-#footer {
+footer {
 	display: none;
 }
