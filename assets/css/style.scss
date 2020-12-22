@@ -7,6 +7,13 @@ section {
 	width: 690px;
 }
 
+
+.container {
+  margin: 0 auto;
+  width: 690px;
+}
+
+
 @media print, screen and (max-width: 1060px) {
 	section: {
 		max-width: 700px;
@@ -25,6 +32,14 @@ body {
 
 header {
 	background: #0E2B56;
+	
+	img {
+		display: inline;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		height: 35px;
+		float: left;
+	}
 }
 
 nav {
