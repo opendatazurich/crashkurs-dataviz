@@ -1,4 +1,7 @@
-# Daten finden und beziehen
+Datenvisualisierung mit Excel und Datawrapper
+==============================================
+
+## Teil 1 Daten finden und beziehen
 
 Für diesen Kurs verwenden wir CSV-Dateien.
 CSV steht für **C**omma-**s**eparated **v**alues (komma-getrennte Werte).
@@ -11,7 +14,7 @@ CSV-Dateien haben meistens auf der ersten Zeile eine Spalteüberschrift und auf 
 Wir werden später dann lernen, wie man CSV-Datein in Excel importieren kann.
 Im ersten Schritt geht es aber darum, CSV-Datei zu finden und herunterzuladen.
 
-## Daten finden
+### Daten finden
 
 Die offenen Behördendaten der Stadt Zürich (OGD - Open Government Data) werden auf dem OGD-Katalog angeboten: [http://data.stadt-zuerich.ch](http://data.stadt-zuerich.ch)
 
@@ -20,15 +23,15 @@ Die offenen Behördendaten der Stadt Zürich (OGD - Open Government Data) werden
 Andere Quellen sind zum Beispiel das [Geoportal](https://www.stadt-zuerich.ch/geodaten/) oder [opendata.swiss](https://opendata.swiss)
 
 
-# Teil 1: Excel
+## Teil 2: Excel
 
-## Daten in Excel laden
+### Daten in Excel laden
 
-## Auswertung in Excel erstellen
+### Auswertung in Excel erstellen
 
-# Teil 2: Datawrapper
+## Teil 3: Datawrapper
 
-## Daten in Datawrapper laden
+### Daten in Datawrapper laden
 
 Datawrapper bietet einen Wizard an, um die Daten zu laden:
 
