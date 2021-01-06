@@ -27,6 +27,12 @@ Andere Quellen sind zum Beispiel das [Geoportal](https://www.stadt-zuerich.ch/ge
 
 ### Daten in Excel laden
 
+Excel starten...
+![Excel-Screenshot](https://user-images.githubusercontent.com/538415/103784534-5c316b80-503a-11eb-94d7-bf8a04fcc4c2.png)
+
+Alternative als HTML: <img src="https://user-images.githubusercontent.com/538415/103784534-5c316b80-503a-11eb-94d7-bf8a04fcc4c2.png" alt="Excel Screenshot" width="50"/>
+
+
 ### Auswertung in Excel erstellen
 
 ## Teil 3: Datawrapper
