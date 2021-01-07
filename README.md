@@ -2,11 +2,17 @@ Einfache Datenanalyse und -visualisierung mit Excel und Datawrapper
 ==============================================
 
 ## Fragestellung: «Gibt es in Zürich tatsächlich Stadtquartiere, wo mehr Hunde als Kleinkinder leben?»
-Als roten Faden durch diesen Crashkurs für AnfängerInnen gehen wir dieser «urban Legend» nach, checken die Fakten dazu und zeigen, wie wir die Erkenntnisse dazu visualisieren und sogar als interaktive Webgrafiken darstellen können.
+Als roten Faden durch diesen Crashkurs für AnfängerInnen gehen wir dieser «urban Legend» nach, checken die Fakten dazu und zeigen, wie wir diese Erkenntnisse visualisieren und sogar als interaktive Webgrafiken darstellen können.
 
 Damit wir diese Fragestellung einfach und mit für alle Kursteilnehmenden vorhandenen Tools beantworten können, haben wir uns für Excel und [Datawrapper](https://www.datawrapper.de/) entschieden. 
 
 ## Teil 1: Daten finden und beziehen
+Damit wir die Fragestellung beantworten können, benötigen wir die dafür relevanten Daten. Wir müssen uns also zuerst auf die Suche machen, wo wir die Hundebestände und Anzahl Kleinkinder pro Stadtquartier und Jahr beziehen können. Wie gut also, dass es in der Stadt Zürich einen [Open Data Katalog](https://data.stadt-zuerich.ch/) gibt, auf dem alle frei verfügbaren Verwaltungsdaten aufgelistet, ausführlich beschrieben und einfach durchsuchbar zum Download vorliegen ;)
+
+- **Schritt 1:** Open Data Katalog der Stadt Zürich aufrufen unter: https://data.stadt-zuerich.ch/ 
+
+
+
 
 Für diesen Kurs verwenden wir CSV-Dateien.
 CSV steht für **C**omma-**s**eparated **v**alues (komma-getrennte Werte).
