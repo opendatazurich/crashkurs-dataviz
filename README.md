@@ -1,5 +1,8 @@
-Datenvisualisierung mit Excel und Datawrapper
+Einfache Datenanalyse und -visualisierung mit Excel und Datawrapper
 ==============================================
+
+## Fragestellung:«Gibt es in Zürich tatsächlich Stadtquartiere, wo mehr Hunde als Kleinkinder vorkommen? »
+
 
 ## Teil 1 Daten finden und beziehen
 
