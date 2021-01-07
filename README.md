@@ -10,6 +10,8 @@ Damit wir diese Fragestellung einfach und mit für alle Kursteilnehmenden vorhan
 Damit wir die Fragestellung beantworten können, benötigen wir die dafür relevanten Daten. Wir müssen uns also zuerst auf die Suche machen, wo wir die Hundebestände und Anzahl Kleinkinder pro Stadtquartier und Jahr beziehen können. Wie gut also, dass es in der Stadt Zürich einen [Open Data Katalog](https://data.stadt-zuerich.ch/) gibt, auf dem alle frei verfügbaren Verwaltungsdaten aufgelistet, ausführlich beschrieben und einfach durchsuchbar zum Download vorliegen ;)
 
 - **Schritt 1:** Open Data Katalog der Stadt Zürich aufrufen unter: https://data.stadt-zuerich.ch/ 
+- **Schritt 2:** Suche nach Hundebestand pro Stadtquartier und Jahr. Gebe dazu im Suchfeld beispielsweise den Begriff «Hundebestand» ein. Sie werden feststellen, dass Sie bereits beim Eintippen des Begriffs passende Vorschläge erhalten werden.  
+<img src="https://user-images.githubusercontent.com/2479732/103919704-a4bb5880-5110-11eb-9bb5-a26313e01f7f.png" alt="Suchresultatvorschau" width="600"/>
 
 
 
