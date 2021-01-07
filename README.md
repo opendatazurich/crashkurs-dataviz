@@ -1,8 +1,8 @@
 Einfache Datenanalyse und -visualisierung mit Excel und Datawrapper
 ==============================================
 
-## Fragestellung:«Gibt es in Zürich tatsächlich Stadtquartiere, wo mehr Hunde als Kleinkinder vorkommen? »
-
+## Fragestellung: «Gibt es in Zürich tatsächlich Stadtquartiere, wo mehr Hunde als Kleinkinder existieren?»
+Als roten Faden durch diesen Crashkurs für AnfängerInnen gehen wir dieser «urban Legend» nach, checken die Fakten dazu und zeigen, wie wir die Erkenntnisse dazu visualisieren und sogar als interaktive Webgrafiken darstellen können.
 
 ## Teil 1 Daten finden und beziehen
 
