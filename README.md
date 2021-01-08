@@ -34,9 +34,11 @@ Damit ist nun unser erster Teil zu Daten finden und beziehen beendet. Solltest D
 ## Teil 2: Excel
 
 ### Daten in Excel laden
-Für diesen Kurs verwenden wir CSV-Dateien.
-CSV steht für **C**omma-**s**eparated **v**alues (komma-getrennte Werte).
-Es ist ein sehr verbreitetes Format für tabellarische Daten.
+Eines der Grundprinzipien von Open Data ist, dass die Datenstätze in **nicht-proprietären Formaten** veröffentlicht werden sollen. Sprich, für die Verwendung der Daten sollen die AnwenderInnen nicht auf kommerzielle Software setzen müssen. Damit soll allen die gleiche Möglichkeit gegeben werden, mit den Daten arbeiten zu können. Das Excelformat (.xls oder .xlsx) ist ein Beispiel eines proprietären Datenformats, weil es zur Verwendung Excel erfordert.
+
+Das Standardformat für tabellarische Daten ist daher bei uns [CSV](https://de.wikipedia.org/wiki/CSV_(Dateiformat)). CSV steht für **C**omma-**s**eparated **v**alues (komma-getrennte Werte).
+
+
 CSV-Dateien haben meistens auf der ersten Zeile eine Spalteüberschrift und auf den nachfolgenden Zeilen dann die Werte.
 
 ![Struktur einer CSV-Datei](https://user-images.githubusercontent.com/538415/102370847-d6cc1580-3fbd-11eb-978c-ed6bbf146606.png)
