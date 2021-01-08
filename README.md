@@ -40,7 +40,7 @@ Das Standardformat für tabellarische Daten ist daher [CSV](https://de.wikipedia
 
 **Beispiel:** 
 
-CSV-Dateien haben meistens auf der ersten Zeile eine Spaltenüberschrift und auf den nachfolgenden Zeilen dann die Werte.
+CSV-Dateien haben meistens auf der ersten Zeile eine Spaltenüberschrift und auf den nachfolgenden Zeilen dann die kommaseparierten Werte.
 <pre>
 "zeitpunkt","bruttolastgang","status"
 "2020-01-01T00:15",66546.656045,"E"
@@ -52,10 +52,12 @@ CSV-Dateien haben meistens auf der ersten Zeile eine Spaltenüberschrift und auf
 "2020-01-01T01:45",62287.860786,"E"
 "2020-01-01T02:00",61283.998490,"E"
 </pre>
-repräsentiert die folgende Tabelle:
-![DarstellungExcel](https://user-images.githubusercontent.com/2479732/104014716-cc173180-51b3-11eb-9440-3d87d2fb6128.png)
 
 Werte zwischen Anführungszeichen sind entweder Texte oder Datumswerte. Wo keine Anführungszeichen stehen, handelt es sich um numerische Werte.  Die Kodierung für Unicode-Zeichen ist dabei standardmässig [UTF-8](https://de.wikipedia.org/wiki/UTF-8).
+Dieser CSV-Auszug repräsentiert die folgende Tabelle:
+
+![DarstellungExcel](https://user-images.githubusercontent.com/2479732/104014716-cc173180-51b3-11eb-9440-3d87d2fb6128.png)
+
 
 ### CSV-Datensätze in Excel laden
 
