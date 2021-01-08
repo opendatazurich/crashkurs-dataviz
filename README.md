@@ -1,9 +1,9 @@
 Einfache Datenanalyse und -visualisierung mit Excel und Datawrapper
 ==============================================
 
-## Fragestellung: «Gibt es in Zürich tatsächlich Stadtquartiere, wo mehr Hunde als Kleinkinder leben?»
+## Fragestellung: «Stimmt es, dass es in Zürich in den meisten Stadtquartieren mehr Hunde als Kleinkinder gibt?»
 
-Während dieses Kurses gehen wir diesem Gerücht nach und wollen herausfinden, ob es wahr ist oder nicht. Wir werden mit Open Data dazu die Fakten checken und zeigen, wie wir diese gewonnenen Erkenntnisse darstellen und sogar als interaktive Webgrafiken visualisieren können.
+Während dieses Kurses gehen wir dem Gerücht nach ob in den meisten Stadtquartieren tatsächlich mehr Hunde als Kleinkinder leben. Wir werden mit Open Data dazu die Fakten checken und zeigen, wie wir die gewonnenen Erkenntnisse darstellen und sogar als interaktive Webgrafiken visualisieren können.
 
 Damit wir diese Fragestellung einfach und mit für alle Kursteilnehmenden vorhandenen Tools beantworten können, haben wir uns für Excel und [Datawrapper](https://www.datawrapper.de/) entschieden. 
 
@@ -11,9 +11,9 @@ Damit wir diese Fragestellung einfach und mit für alle Kursteilnehmenden vorhan
 Zur Beantwortung dieser Fragestellung benötigen wir die dazu relevanten Daten. Wir müssen uns also zuerst auf die Suche machen, wo wir die Anzahl Hunde und die Anzahl Kleinkinder pro Stadtquartier und Jahr beziehen können. Wie gut also, dass es in der Stadt Zürich einen [Open Data Katalog](https://data.stadt-zuerich.ch/) gibt, auf dem alle frei verfügbaren Verwaltungsdaten aufgelistet, ausführlich beschrieben und einfach durchsuchbar zum Download vorliegen ;)
 
 - **Schritt 1:** Open Data Katalog der Stadt Zürich aufrufen unter: https://data.stadt-zuerich.ch/ 
-- **Schritt 2:** Suche nach Hundebestand pro Stadtquartier und Jahr. Gebe dazu im Suchfeld beispielsweise den Begriff «Hundebestand» ein. Sie werden feststellen, dass Sie bereits beim Eintippen des Begriffs passende Vorschläge erhalten werden.  
-<img src="https://user-images.githubusercontent.com/2479732/103919704-a4bb5880-5110-11eb-9bb5-a26313e01f7f.png" alt="Suchresultatvorschau" width="600"/>
-
+- **Schritt 2:** Suche nach Hundebestand pro Stadtquartier und Jahr. Gebe dazu im Suchfeld beispielsweise den Begriff «Hunde» und «Stadtquartier» ein. Beim Eintippen des Suchbegriffs werden bereits passende Vorschläge zu auf dem Katalog vorkommenden Daten angezeigt.  
+<img src="https://user-images.githubusercontent.com/2479732/103986721-847caf80-518b-11eb-839c-95953ead6f67.png" alt="Suchresultatvorschau" width="600"/>
+- **Schritt 3:** Suche na
 
 
 
