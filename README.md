@@ -94,9 +94,14 @@ Damit ihr wie erwartet basierend auf einem CSV-Datensatz in Excel weiterarbeiten
 - **Schritt 8:** Importiere nun `BEV390OD3903.csv`wie ab Schritt 3 beschrieben in unser Excelfile `Kleinkinder_und_Hunde.xlsx`. Tipp: definiere beim Import die Spalte *AlterV05Kurz* als Text, weil sonst wirklich einzelne Werte als Datum dargestellt werden.
 
 Damit sind wir fertig mit dem Datenimport. Unser Excelfile `Kleinkinder_und_Hunde.xlsx` beinhaltet nun zwei Arbeitsblätter mit den Hunde- und Bevölkerungsbestandsdaten, welche wir nun im nächsten Schritt analysieren werden.
+
 <img src="https://user-images.githubusercontent.com/2479732/104026534-5a94ae80-51c6-11eb-8940-1b2ffcca7f3a.gif" alt="abschlussDatenImports" width="800"/>
 
-### Auswertung in Excel erstellen
+### Datenauswertung mit Excel 
+Selbstverständlich ist Excel nicht die beste Option für Datenanalysen. Fortgeschrittenere AnwenderInnen verwenden in der Regel mächtige Statistiktools wie **[R](https://www.r-project.org/)** (siehe dazu Ressourcen, wie [Rddj](https://rddj.info/) oder [RStudio Education](https://education.rstudio.com/blog/2020/05/remote-roundup/)) oder **[Python](https://www.python.org/)** (siehe dazu Ressourcen, wie [Data analysis with Python](https://csmastersuh.github.io/data_analysis_with_python_2020/ ) oder [Information Visualization](https://infovis.fh-potsdam.de/tutorials/)). 
+
+Excel bietet jedoch mehr und einfachere Datenanalysemöglichkeiten, als man vielleicht auf Anhieb annehmen würde. Für diesen Kurs 
+
 
 ## Teil 3: Datawrapper
 
