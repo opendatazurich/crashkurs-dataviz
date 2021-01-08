@@ -98,9 +98,11 @@ Damit sind wir fertig mit dem Datenimport. Unser Excelfile `Kleinkinder_und_Hund
 <img src="https://user-images.githubusercontent.com/2479732/104026534-5a94ae80-51c6-11eb-8940-1b2ffcca7f3a.gif" alt="abschlussDatenImports" width="800"/>
 
 ### Datenauswertung mit Excel 
-Selbstverständlich ist Excel nicht die beste Option für Datenanalysen. Fortgeschrittenere AnwenderInnen verwenden in der Regel mächtige Statistiktools wie **[R](https://www.r-project.org/)** (siehe dazu Ressourcen, wie [Rddj](https://rddj.info/) oder [RStudio Education](https://education.rstudio.com/blog/2020/05/remote-roundup/)) oder **[Python](https://www.python.org/)** (siehe dazu Ressourcen, wie [Data analysis with Python](https://csmastersuh.github.io/data_analysis_with_python_2020/ ) oder [Information Visualization](https://infovis.fh-potsdam.de/tutorials/)). 
+Excel ist bezüglich Datenanalyse selbstverständlich nicht allererste Sahne. Fortgeschrittenere AnwenderInnen verwenden in der Regel mächtigere Statistiktools wie **[R](https://www.r-project.org/)** (siehe dazu Ressourcen, wie [Rddj](https://rddj.info/) oder [RStudio Education](https://education.rstudio.com/blog/2020/05/remote-roundup/)) oder **[Python](https://www.python.org/)** (siehe dazu Ressourcen, wie [Data analysis with Python](https://csmastersuh.github.io/data_analysis_with_python_2020/ ) oder [Information Visualization](https://infovis.fh-potsdam.de/tutorials/)). 
 
-Excel bietet jedoch mehr und einfachere Datenanalysemöglichkeiten, als man vielleicht auf Anhieb annehmen würde. Für diesen Kurs 
+Excel bietet jedoch mehr und einfachere Datenanalysemöglichkeiten, als man auf den ersten Blick vielleicht annehmen würde. Für diesen Kurs möchten wir Euch das einfache Tool **[PivotCharts und PivotTable](https://support.microsoft.com/de-de/office/%C3%BCbersicht-%C3%BCber-pivottables-und-pivotcharts-527c8fa3-02c0-445a-a2db-7794676bce96)** etwas näher bringen.
+
+Wenn ihr Euch die eben importierten Daten anschaut, dann seht ihr, dass wir sie - um daraus Erkenntnisse zu gewinnen - im wesentlichen filtern und entsprechend summieren können müssen. PivotTable bietet dies sehr einfach, interaktiv und effizient. PivotCharts ist eine Ergänzung von PivotTables und erlaubt ebenfalls ein einfaches interaktives visualisieren der Daten. Damit können auf einfache Weise Muster erkannt und Vergleiche angestellt werden.
 
 
 ## Teil 3: Datawrapper
