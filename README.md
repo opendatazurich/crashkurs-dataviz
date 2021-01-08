@@ -104,6 +104,15 @@ Excel bietet jedoch mehr und einfachere Datenanalysemöglichkeiten, als man auf 
 
 Wenn ihr Euch die eben importierten Daten anschaut, dann seht ihr, dass wir sie - um daraus Erkenntnisse zu gewinnen - im wesentlichen filtern und entsprechend summieren können müssen. PivotTable bietet dies sehr einfach, interaktiv und effizient. PivotCharts ist eine Ergänzung von PivotTables und erlaubt ebenfalls ein einfaches interaktives visualisieren der Daten. Damit können auf einfache Weise Muster erkannt und Vergleiche angestellt werden.
 
+#### Anzahl Kleinkinder nach Stadtquartier (Stand 31.12.2020)
+Beginnen wir zuerst einmal damit herauszufinden, wie viele Kleinkinder es pro Stadtquartier am 31.12.2019 gab.
+
+- **Schritt 1:** Überschreibe 
+
+
+<img src="https://user-images.githubusercontent.com/2479732/104037207-ac443580-51d4-11eb-8458-4ee22822d42d.gif" alt="BevBest_Pivot" width="800"/>
+
+
 
 ## Teil 3: Datawrapper
 
