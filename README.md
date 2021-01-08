@@ -33,19 +33,36 @@ Damit ist nun unser erster Teil zu Daten finden und beziehen beendet. Solltest D
 
 ## Teil 2: Excel
 
-### Daten in Excel laden
+### CSV... what?
 Eines der Grundprinzipien von Open Data ist, dass die Datenstätze in **nicht-proprietären Formaten** veröffentlicht werden sollen. Sprich, für die Verwendung der Daten sollen die AnwenderInnen nicht auf kommerzielle Software setzen müssen. Damit soll allen die gleiche Möglichkeit gegeben werden, mit den Daten arbeiten zu können. Das Excelformat (.xls oder .xlsx) ist ein Beispiel eines proprietären Datenformats, weil es zur Verwendung Excel erfordert.
 
-Das Standardformat für tabellarische Daten ist daher bei uns [CSV](https://de.wikipedia.org/wiki/CSV_(Dateiformat)). CSV steht für **C**omma-**s**eparated **v**alues (komma-getrennte Werte).
+Das Standardformat für tabellarische Daten ist daher [CSV](https://de.wikipedia.org/wiki/CSV_(Dateiformat)). CSV steht für **C**omma-**s**eparated **v**alues (komma-getrennte Werte).
 
+**Beispiel:** 
 
-CSV-Dateien haben meistens auf der ersten Zeile eine Spalteüberschrift und auf den nachfolgenden Zeilen dann die Werte.
+CSV-Dateien haben meistens auf der ersten Zeile eine Spaltenüberschrift und auf den nachfolgenden Zeilen dann die Werte.
+<pre>
+"zeitpunkt","bruttolastgang","status"
+"2020-01-01T00:15",66546.656045,"E"
+"2020-01-01T00:30",66018.362440,"E"
+"2020-01-01T00:45",65272.630020,"E"
+"2020-01-01T01:00",64385.925397,"E"
+"2020-01-01T01:15",63578.900426,"E"
+"2020-01-01T01:30",63105.155989,"E"
+"2020-01-01T01:45",62287.860786,"E"
+"2020-01-01T02:00",61283.998490,"E"
+</pre>
+repräsentiert die folgende Tabelle:
+![DarstellungExcel](https://user-images.githubusercontent.com/2479732/104014716-cc173180-51b3-11eb-9440-3d87d2fb6128.png)
 
-![Struktur einer CSV-Datei](https://user-images.githubusercontent.com/538415/102370847-d6cc1580-3fbd-11eb-978c-ed6bbf146606.png)
+Werte zwischen Anführungszeichen sind entweder Texte oder Datumswerte. Wo keine Anführungszeichen stehen, handelt es sich um numerische Werte.  Die Kodierung für Unicode-Zeichen ist dabei standardmässig [UTF-8](https://de.wikipedia.org/wiki/UTF-8).
 
+### CSV-Datensätze in Excel laden
 
 Wir werden später dann lernen, wie man CSV-Datein in Excel importieren kann.
-Im ersten Schritt geht es aber darum, CSV-Datei zu finden und herunterzuladen.
+
+
+
 
 Excel starten...
 ![Excel-Screenshot](https://user-images.githubusercontent.com/538415/103784534-5c316b80-503a-11eb-94d7-bf8a04fcc4c2.png)
