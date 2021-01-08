@@ -2,7 +2,8 @@ Einfache Datenanalyse und -visualisierung mit Excel und Datawrapper
 ==============================================
 
 ## Fragestellung: «Gibt es in Zürich tatsächlich Stadtquartiere, wo mehr Hunde als Kleinkinder leben?»
-Als roten Faden durch diesen Crashkurs für AnfängerInnen gehen wir dieser «urban Legend» nach, checken die Fakten dazu und zeigen, wie wir diese Erkenntnisse visualisieren und sogar als interaktive Webgrafiken darstellen können.
+
+Während dieses Kurses gehen wir diesem Gerücht nach und wollen herausfinden, ob es wahr ist oder nicht. Wir werden mit Open Data dazu die Fakten checken und zeigen, wie wir diese gewonnenen Erkenntnisse darstellen und sogar als interaktive Webgrafiken visualisieren können.
 
 Damit wir diese Fragestellung einfach und mit für alle Kursteilnehmenden vorhandenen Tools beantworten können, haben wir uns für Excel und [Datawrapper](https://www.datawrapper.de/) entschieden. 
 
