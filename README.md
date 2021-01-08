@@ -63,13 +63,20 @@ Dieser CSV-Auszug repräsentiert die folgende Tabelle:
 Vielleicht fragst Du Dich nun unterdessen, wozu der ganze Exkurs über CSV dienlich sein soll... Nun, leider ist es so, dass bereits zu diesem Zeitpunkt viele scheitern, die noch nie mit CSV gerarbeitet haben und eine CSV-Datei in Excel öffnen wollen. Daher zeigen wir Euch in diesem Abschnitt, wie man vorgehen sollte, wenn man mit CSV-Datensätzen in Excel arbeiten möchte.
 
 **Wie es NICHT funktioniert:**
-Leider funktioniert - nicht wie sonst üblich - das folgende Vorgehen in der Regel nicht:
-![ExcelFail](https://user-images.githubusercontent.com/2479732/104017881-32528300-51b9-11eb-8d15-39debf3c426a.gif)
+Ein Doppelklicken auf die CSV-Datei wie hier gezeigt funktioniert leider meistens nicht. Obwohl man gemäss des Icons der Datei das Gefühl hätte, dass dies doch so möglich sein sollte. Folgendes geschieht jedoch stattdessen: 
 
-Die CSV-Datei wird zwar in Excel geöffnet, es findet jedoch keine saubere Trennung der Attribute in einzelne Spalten statt (vgl. die oben gezeigte Tabelle). Mit dieser Vorgehensweise sind alle Werte in die Spalte A eingefügt worden. 
+<img src="https://user-images.githubusercontent.com/2479732/104017881-32528300-51b9-11eb-8d15-39debf3c426a.gif" alt="ExcelFail" width="600"/>
+
+Die CSV-Datei wird zwar in Excel geöffnet, es findet jedoch keine saubere Trennung der Attribute in einzelne Spalten statt (vgl. die oben gezeigte Tabelle). Mit der hier gezeigten Vorgehensweise sind alle Werte in eine Spalte (hier Spalte A) eingefügt worden. Damit lässt sich nicht bequem weiter arbeiten.
 
 **Der Clou: CSV-Datei muss IMPORTIERT werden**
+Damit ihr wie erwartet basierend auf einem CSV-Datensatz in Excel weiterarbeiten könnt, müsst ihr den CSV-Datensatz **importieren**. Dazu müsst ihr folgendermassen vorgehen:
 
+- **Schritt 1:** Öffne eine neue leere Exceldatei und speichere Sie in Dein Verzeichnis, wo Du bereits die beiden CSV-Datensätze abgelegt hast ( `20200306_hundehalter.csv` und `BEV390OD3903.csv`). Gib dem Excelfile einen Namen, z.B. `Kleinkinder_und_Hunde.xlsx`.
+
+- **Schritt 2:** Gehe zum Menu **Daten**.
+
+<img src="https://user-images.githubusercontent.com/2479732/104021668-747ec300-51bf-11eb-859d-23aecceabee3.gif" alt="csvImport" width="600"/>
 
 ### Auswertung in Excel erstellen
 
