@@ -65,18 +65,36 @@ Vielleicht fragst Du Dich nun unterdessen, wozu der ganze Exkurs über CSV dienl
 **Wie es NICHT funktioniert:**
 Ein Doppelklicken auf die CSV-Datei wie hier gezeigt funktioniert leider meistens nicht. Obwohl man gemäss des Icons der Datei das Gefühl hätte, dass dies doch so möglich sein sollte. Folgendes geschieht jedoch stattdessen: 
 
-<img src="https://user-images.githubusercontent.com/2479732/104017881-32528300-51b9-11eb-8d15-39debf3c426a.gif" alt="ExcelFail" width="600"/>
+<img src="https://user-images.githubusercontent.com/2479732/104017881-32528300-51b9-11eb-8d15-39debf3c426a.gif" alt="ExcelFail" width="800"/>
 
 Die CSV-Datei wird zwar in Excel geöffnet, es findet jedoch keine saubere Trennung der Attribute in einzelne Spalten statt (vgl. die oben gezeigte Tabelle). Mit der hier gezeigten Vorgehensweise sind alle Werte in eine Spalte (hier Spalte A) eingefügt worden. Damit lässt sich nicht bequem weiter arbeiten.
 
 **Der Clou: CSV-Datei muss IMPORTIERT werden**
+
 Damit ihr wie erwartet basierend auf einem CSV-Datensatz in Excel weiterarbeiten könnt, müsst ihr den CSV-Datensatz **importieren**. Dazu müsst ihr folgendermassen vorgehen:
 
 - **Schritt 1:** Öffne eine neue leere Exceldatei und speichere Sie in Dein Verzeichnis, wo Du bereits die beiden CSV-Datensätze abgelegt hast ( `20200306_hundehalter.csv` und `BEV390OD3903.csv`). Gib dem Excelfile einen Namen, z.B. `Kleinkinder_und_Hunde.xlsx`.
 
-- **Schritt 2:** Gehe zum Menu **Daten**.
+- **Schritt 2:** Gehe zum Menu **Daten** und klicke auf **Externe Daten abrufen**. Wähle aus allen angezeigten Optionen **Aus Text** aus.
 
-<img src="https://user-images.githubusercontent.com/2479732/104021668-747ec300-51bf-11eb-859d-23aecceabee3.gif" alt="csvImport" width="600"/>
+- **Schritt 3:** Mit dem Pop-Up **Textdatei importieren** wirst Du aufgefordert, die Textdatei auszuwählen, die Du nun ins Excelfile importieren möchtest. Wähle zuerst `20200306_hundehalter.csv` zum Import aus und klicke auf **Importieren**.
+
+- **Schritt 4:** Nun erscheint das Pop-Up mit dem **Textkonvertierungs-Assistenten**, welcher dich durch drei Importschritte führt.
+  - a) Wähle **Getrennt** aus, weil unsere Datensätze ja durch Kommas abgetrennt sind. Der Import beginnt in Zeile 1 und das CSV liegt in UTF-8 Kodierung vor. Aktiviere auch das Kästchen, dass die Datei Überschriften hat. Ganz unten siehst Du eine Vorschau, wie gemäss Deiner Auswahl der Import aussehen würde. Klicke nun auf **Weiter**.
+  -b) Im nächsten Dialogfeld musst Du nun die Trennzeichen definieren. In unserem Fall, resp. bei CSV, sollte dies immer **Komma** sein. Wähle es aus und beobachte die Veränderung in der Vorschau. Wenn Du zufrieden bist, klicke auf **Weiter**.
+  -c) Im letzten Dialogfeld kannst Du den Datentypen für jede Spalte definieren. Dies ist in den meisten fällen nicht notwendig. In unserem Beispiel wurde noch explizit das Attribut Alter als Text definiert. Dies weil gewisse Werte von Excel z.T. auch als Datum interpretiert werden. Wenn Du zufrieden bist, klicke auf **Weiter**.  
+  
+- **Schritt 5:** Bestätige mit **OK** den Import in das aktuelle Arbeitsblatt Deines Excelfiles. Voila, die Daten liegen nun so vor, dass Du mit den Hundedaten nun weiter arbeiten kannst.
+
+<img src="https://user-images.githubusercontent.com/2479732/104021668-747ec300-51bf-11eb-859d-23aecceabee3.gif" alt="csvImport" width="800"/>
+
+- **Schritt 6:** Überschreibe unten links den Arbeitsblattnamen von *Tabelle 1* auf *Hundebestand_2020*. Dies erfolgt einfach, indem Du auf den Text Tabelle 1 doppelklickst und ihn dann überschreibst.
+
+- **Schritt 7:** Füge nun - mit einem Klick auf das Plus-Zeichen - ein neues Arbeitsblatt hinzu und nenne es *Bevölkerungsbestand*.
+- **Schritt 8:** Importiere nun `BEV390OD3903.csv`wie ab Schritt 3 beschrieben in unser Excelfile `Kleinkinder_und_Hunde.xlsx`. Tipp: definiere beim Import die Spalte *AlterV05Kurz* als Text, weil sonst wirklich einzelne Werte als Datum dargestellt werden.
+
+Damit sind wir fertig mit dem Datenimport. Unser Excelfile `Kleinkinder_und_Hunde.xlsx` beinhaltet nun zwei Arbeitsblätter mit den Hunde- und Bevölkerungsbestandsdaten, welche wir nun im nächsten Schritt analysieren werden.
+<img src="https://user-images.githubusercontent.com/2479732/104026534-5a94ae80-51c6-11eb-8940-1b2ffcca7f3a.gif" alt="abschlussDatenImports" width="800"/>
 
 ### Auswertung in Excel erstellen
 
