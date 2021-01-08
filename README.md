@@ -25,9 +25,15 @@ Zur Beantwortung dieser Fragestellung benötigen wir die dazu relevanten Daten. 
 
 - **Schritt 5:** Für unsere Fragestellung ist der Datensatz «[Bevölkerung nach Stadtquartier, Herkunft, Geschlecht und Alter, seit 1993](https://data.stadt-zuerich.ch/dataset/bev_bestand_jahr_quartier_alter_herkunft_geschlecht_od3903)» am geeignetsten. Er beinhaltet zwar mehr Informationen als wir benötigen (die Herkunft oder das Geschlecht interessieren uns eigentlich weniger), aber wir werden sie in einem späteren Schritt mit Excel herausfiltern.
  
+- **Schritt 6:** Lies nun auch wieder die Metadaten zum Datensatz und gehe gleich wie in **Schritt 3** vor, um den Datensatz auf Deinen Computer herunter zu laden.
 
+- **Schritt 7:** Du hast nun die beiden für unsere Fragestellung relevanten Datensätze gefunden und heruntergeladen. Sie heissen `20200306_hundehalter.csv` (Hunde) und `BEV390OD3903.csv`(Bevölkerungsdaten). Kopiere diese beiden Datensätze nun aus dem Downloadverzeichnis Deines Computers und lege sie in ein Verzeichnis, wo Du  an den noch folgenden Schritten weiter arbeiten kannst. 
 
+Damit ist nun unser erster Teil zu Daten finden und beziehen beendet. Solltest Du mal für eine andere Fragestellunng auf dem Open Data Katalog der Stadt Zürich nicht fündig werden, können auch viele andere Open Data Quellen konsultiert werden. Auf nationaler Ebene werden unter [opendata.swiss](https://opendata.swiss) Open Data von verschiedenen Bundesstellen, anderen Kantonen und Städten offene Verwaltungdaten angeboten. 
 
+## Teil 2: Excel
+
+### Daten in Excel laden
 Für diesen Kurs verwenden wir CSV-Dateien.
 CSV steht für **C**omma-**s**eparated **v**alues (komma-getrennte Werte).
 Es ist ein sehr verbreitetes Format für tabellarische Daten.
@@ -38,19 +44,6 @@ CSV-Dateien haben meistens auf der ersten Zeile eine Spalteüberschrift und auf 
 
 Wir werden später dann lernen, wie man CSV-Datein in Excel importieren kann.
 Im ersten Schritt geht es aber darum, CSV-Datei zu finden und herunterzuladen.
-
-### Daten finden
-
-Die offenen Behördendaten der Stadt Zürich (OGD - Open Government Data) werden auf dem OGD-Katalog angeboten: [http://data.stadt-zuerich.ch](http://data.stadt-zuerich.ch)
-
-![OGD-Katalog der Stadt Zürich](https://user-images.githubusercontent.com/538415/102369942-cff0d300-3fbc-11eb-86f1-83264cdee019.png)
-
-Andere Quellen sind zum Beispiel das [Geoportal](https://www.stadt-zuerich.ch/geodaten/) oder [opendata.swiss](https://opendata.swiss)
-
-
-## Teil 2: Excel
-
-### Daten in Excel laden
 
 Excel starten...
 ![Excel-Screenshot](https://user-images.githubusercontent.com/538415/103784534-5c316b80-503a-11eb-94d7-bf8a04fcc4c2.png)
