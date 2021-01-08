@@ -58,18 +58,17 @@ Dieser CSV-Auszug repräsentiert die folgende Tabelle:
 
 ![DarstellungExcel](https://user-images.githubusercontent.com/2479732/104014716-cc173180-51b3-11eb-9440-3d87d2fb6128.png)
 
-
 ### CSV-Datensätze in Excel laden
 
-Wir werden später dann lernen, wie man CSV-Datein in Excel importieren kann.
+Vielleicht fragst Du Dich nun unterdessen, wozu der ganze Exkurs über CSV dienlich sein soll... Nun, leider ist es so, dass bereits zu diesem Zeitpunkt viele scheitern, die noch nie mit CSV gerarbeitet haben und eine CSV-Datei in Excel öffnen wollen. Daher zeigen wir Euch in diesem Abschnitt, wie man vorgehen sollte, wenn man mit CSV-Datensätzen in Excel arbeiten möchte.
 
+**Wie es NICHT funktioniert:**
+Leider funktioniert - nicht wie sonst üblich - das folgende Vorgehen in der Regel nicht:
+![ExcelFail](https://user-images.githubusercontent.com/2479732/104017881-32528300-51b9-11eb-8d15-39debf3c426a.gif)
 
+Die CSV-Datei wird zwar in Excel geöffnet, es findet jedoch keine saubere Trennung der Attribute in einzelne Spalten statt (vgl. die oben gezeigte Tabelle). Mit dieser Vorgehensweise sind alle Werte in die Spalte A eingefügt worden. 
 
-
-Excel starten...
-![Excel-Screenshot](https://user-images.githubusercontent.com/538415/103784534-5c316b80-503a-11eb-94d7-bf8a04fcc4c2.png)
-
-Alternative als HTML: <img src="https://user-images.githubusercontent.com/538415/103784534-5c316b80-503a-11eb-94d7-bf8a04fcc4c2.png" alt="Excel Screenshot" width="50"/>
+**Der Clou: CSV-Datei muss IMPORTIERT werden**
 
 
 ### Auswertung in Excel erstellen
