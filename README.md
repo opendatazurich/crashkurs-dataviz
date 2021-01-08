@@ -13,7 +13,8 @@ Zur Beantwortung dieser Fragestellung benötigen wir die dazu relevanten Daten. 
 - **Schritt 1:** Open Data Katalog der Stadt Zürich aufrufen unter: https://data.stadt-zuerich.ch/ 
 - **Schritt 2:** Suche nach Hundebestand pro Stadtquartier und Jahr. Gebe dazu im Suchfeld beispielsweise den Begriff «Hunde» und «Stadtquartier» ein. Beim Eintippen des Suchbegriffs werden bereits passende Vorschläge zu auf dem Katalog vorkommenden Daten angezeigt.  
 <img src="https://user-images.githubusercontent.com/2479732/103986721-847caf80-518b-11eb-839c-95953ead6f67.png" alt="Suchresultatvorschau" width="600"/>
-- **Schritt 3:** Suche na
+
+- **Schritt 3:** Wähle das Dataset «[Hundebestand der Stadt Zürich](https://data.stadt-zuerich.ch/dataset/sid_stapo_hundebestand)» aus und lies die Metadaten dazu.
 
 
 
