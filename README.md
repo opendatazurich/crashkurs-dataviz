@@ -104,7 +104,7 @@ Excel bietet jedoch mehr und einfachere Datenanalysemöglichkeiten, als man auf 
 
 Wenn ihr Euch die eben importierten Daten anschaut, dann seht ihr, dass wir sie - um daraus Erkenntnisse zu gewinnen - im wesentlichen filtern und entsprechend summieren können müssen. PivotTable bietet diese Funktionalitäten sehr einfach, interaktiv und effizient an. PivotCharts ist eine Ergänzung von PivotTables und erlaubt ebenfalls ein einfaches interaktives visualisieren der Daten. Damit können auf einfache Weise Muster erkannt und Vergleiche angestellt werden.
 
-### Anzahl Kleinkinder nach Stadtquartier (Stand 31.12.2019)
+### Anzahl Kleinkinder nach Stadtquartier
 Beginnen wir zuerst einmal damit herauszufinden, wie viele Kleinkinder es pro Stadtquartier am 31.12.2019 gab.
 
 - **Schritt 1:** Gehe zum Menu **Einfügen**, klicke aufs **PivotChart-Icon** und wähle **PivotChart und PivotTable**.
@@ -121,7 +121,7 @@ Beginnen wir zuerst einmal damit herauszufinden, wie viele Kleinkinder es pro St
 
 <img src="https://user-images.githubusercontent.com/2479732/104037207-ac443580-51d4-11eb-8458-4ee22822d42d.gif" alt="BevBest_Pivot"/>
 
-### Anzahl Hunde nach Stadtquartier (Stand 06.03.2020)
+### Anzahl Hunde nach Stadtquartier
 Als nächstes gehen wir analog der vorherigen Schritte vor und analysieren nun, wie viele Hunde es pro Stadtquartier Anfangs März 2020 gab.
 
 - **Schritt 1:** Wechsle ins Arbeitsblatt **Hundebestand_2020** und gehe erneut zum Menu **Einfügen**, klicke aufs **PivotChart-Icon** und wähle **PivotChart und PivotTable**.
@@ -137,7 +137,7 @@ Als nächstes gehen wir analog der vorherigen Schritte vor und analysieren nun, 
 
 - **Schritt 4:** Damit haben wir nun die Anzahl Hunde pro Stadtquartier als Tabelle. Benenne das Arbeitsblatt wieder, z.B. mit `HundeBest2020_Pivot`.
 
-### Anzahl Kleinkinder im Vergleich zur Anzahl Hunde pro Stadtquartier
+### Vergleich zur Anzahl Hunde und Kleinkinder
 Damit wir die Resultate der Anzahl Hunde und Anzahl Kleinkinder pro Stadtquartier vergleichen können, kopieren wir am einfachsten die Resultate der Pivot-Tabellen in ein neues Arbeitsblatt.
 
 - **Schritt 1:** Füge ein neues Arbeitsblatt (mit Klick auf das Plus-Zeichen unten rechts neben den anderen Arbeitsblättern) hinzu. Gib ihm einen Namen. In unserem Beispiel `Vgl_Kleinkinder_Hunde`.
@@ -185,7 +185,7 @@ Damit wir die Resultate der Anzahl Hunde und Anzahl Kleinkinder pro Stadtquartie
 
 ### Überrascht vom Resultat?
 Nun haben wir also Gewissheit: Ende 2019 lebten nur im Stadtquartier **Lindenhof** (Bevölkerungszahl 2019: 1'009) im Kreis 1 mehr Hunde (27) als Kleinkinder (22). Bei allen Stadtquartieren im Kreis 1 war die Differenz zwischen Kleinkindern und Hunden relativ klein.
-Am grössten ist die Differenz hingegen in den Bevölkerungsreichsten Stadtquartieren Altstetten (mit +1'133) und Affoltern (+1'115).
+Am grössten ist die Differenz hingegen in den bevölkerungsreichsten Stadtquartieren Altstetten (mit +1'133) und Affoltern (+1'115).
 
 # Teil 3: Datawrapper
 
