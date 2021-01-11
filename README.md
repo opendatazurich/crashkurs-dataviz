@@ -189,8 +189,17 @@ Am grössten ist die Differenz hingegen in den bevölkerungsreichsten Stadtquart
 
 # Teil 3: Datawrapper
 
+## Daten für Datawrapper vorbereiten
+
 ## Daten in Datawrapper laden
 
 Datawrapper bietet einen Wizard an, um die Daten zu laden:
 
 ![Wizard von Datawrapper um Daten zu laden](https://user-images.githubusercontent.com/538415/102371585-9e790700-3fbe-11eb-966d-58f22547fd1c.png)
+
+## Diagramm erstellen Anzahl Hunde und Kleinkinder pro Quartier
+
+## Daten auf einer Karte visualisieren (Chloropleth)
+
+- Anteil der Kleinkinder in der Gesamtbevölkerung
+- Anzahl Hunde pro Kleinkind (?)
