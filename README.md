@@ -1,13 +1,13 @@
 Einfache Datenanalyse und -visualisierung mit Excel und Datawrapper
 ==============================================
 
-## Fragestellung: «Stimmt es, dass es in Zürich in den meisten Stadtquartieren mehr Hunde als Kleinkinder gibt?»
+**Fragestellung: «Stimmt es, dass es in Zürich in den meisten Stadtquartieren mehr Hunde als Kleinkinder gibt?»**
 
 Während dieses Kurses gehen wir dem Gerücht nach, ob in den meisten Stadtquartieren tatsächlich mehr Hunde als Kleinkinder leben. Wir werden mit Open Data die Fakten dazu checken und zeigen, wie wir die gewonnenen Erkenntnisse darstellen und sogar als interaktive Webgrafiken visualisieren können.
 
 Damit wir diese Fragestellung einfach und mit für alle Kursteilnehmenden vorhandenen Tools beantworten können, haben wir uns für Excel und [Datawrapper](https://www.datawrapper.de/) entschieden. 
 
-## Teil 1: Daten finden und beziehen
+# Teil 1: Daten finden und beziehen
 Zur Beantwortung der Fragestellung benötigen wir die dazu relevanten Daten. Wir müssen uns zuerst auf die Suche machen, wo wir die Anzahl Hunde und die Anzahl Kleinkinder pro Stadtquartier und Jahr beziehen können. Wie gut also, dass es in der Stadt Zürich einen [Open Data Katalog](https://data.stadt-zuerich.ch/) gibt, auf dem alle frei verfügbaren Verwaltungsdaten aufgelistet, ausführlich beschrieben und einfach durchsuchbar zum Download vorliegen ;)
 
 - **Schritt 1:** Rufe den Open Data Katalog der Stadt Zürich auf unter: [https://data.stadt-zuerich.ch/](https://data.stadt-zuerich.ch/)
@@ -31,9 +31,9 @@ Zur Beantwortung der Fragestellung benötigen wir die dazu relevanten Daten. Wir
 
 Damit ist unser erster Teil zum Thema «Daten finden und beziehen» beendet. Solltest Du später einmal für eine andere Fragestellunng auf dem Open Data Katalog der Stadt Zürich nicht fündig werden, können auch viele andere Open Data Quellen konsultiert werden. Auf nationaler Ebene werden unter [opendata.swiss](https://opendata.swiss) sämtliche offenen Verwaltungsdaten von verschiedenen Bundesstellen, anderen Kantonen und Städten angeboten. 
 
-## Teil 2: Excel
+# Teil 2: Excel
 
-### CSV... what?
+## CSV... what?
 Eines der Grundprinzipien von Open Data ist, dass die Datenstätze in **nicht-proprietären Formaten** veröffentlicht werden sollen. Sprich, für die Verwendung der Daten sollen die AnwenderInnen nicht auf kommerzielle Software angewiesen sein. Damit soll allen die gleiche Möglichkeit gegeben werden, mit den Daten arbeiten zu können. Das Excelformat (.xls oder .xlsx) ist ein Beispiel eines proprietären Datenformats, weil es zur Verwendung Excel erfordert.
 
 Das Standardformat für tabellarische Daten ist daher [CSV](https://de.wikipedia.org/wiki/CSV_(Dateiformat)). CSV steht für **C**omma-**s**eparated **v**alues (komma-getrennte Werte).
@@ -58,7 +58,7 @@ Der angezeigte CSV-Auszug oben repräsentiert die folgende Tabelle:
 
 ![DarstellungExcel](https://user-images.githubusercontent.com/2479732/104014716-cc173180-51b3-11eb-9440-3d87d2fb6128.png)
 
-### CSV-Datensätze in Excel laden
+## CSV-Datensätze in Excel laden
 
 Vielleicht fragst Du Dich unterdessen, wozu der ganze Exkurs über CSV dienlich sein soll...(?) Leider ist es so, dass viele Datennutzende bereits zu diesem Zeitpunkt scheitern, wenn sie noch nie mit CSV gerarbeitet haben und eine CSV-Datei in Excel öffnen wollen. Daher zeigen wir Euch in diesem Abschnitt, wie man vorgehen sollte, wenn man mit CSV-Datensätzen in Excel arbeiten möchte.
 
@@ -97,14 +97,14 @@ Damit sind wir fertig mit dem Datenimport. Unser Excelfile `Kleinkinder_und_Hund
 
 <img src="https://user-images.githubusercontent.com/2479732/104026534-5a94ae80-51c6-11eb-8940-1b2ffcca7f3a.gif" alt="abschlussDatenImports" width="800"/>
 
-### Datenauswertung mit Excel 
+## Datenauswertung mit Excel 
 Excel ist bezüglich Datenanalyse selbstverständlich nicht allererste Sahne. Fortgeschrittenere Datennutzende verwenden in der Regel eher Statistiktools wie **[R](https://www.r-project.org/)** (siehe dazu Ressourcen, wie [Rddj](https://rddj.info/) oder [RStudio Education](https://education.rstudio.com/blog/2020/05/remote-roundup/)) oder **[Python](https://www.python.org/)** (siehe dazu Ressourcen, wie [Data analysis with Python](https://csmastersuh.github.io/data_analysis_with_python_2020/ ) oder [Information Visualization](https://infovis.fh-potsdam.de/tutorials/)). 
 
 Excel bietet jedoch mehr und einfachere Datenanalysemöglichkeiten, als man auf den ersten Blick vielleicht annehmen würde. Für diesen Kurs möchten wir Euch das einfache Excel-Tool **[PivotCharts und PivotTable](https://support.microsoft.com/de-de/office/%C3%BCbersicht-%C3%BCber-pivottables-und-pivotcharts-527c8fa3-02c0-445a-a2db-7794676bce96)** etwas näher bringen.
 
 Wenn ihr Euch die eben importierten Daten anschaut, dann seht ihr, dass wir sie - um daraus Erkenntnisse zu gewinnen - im wesentlichen filtern und entsprechend summieren können müssen. PivotTable bietet diese Funktionalitäten sehr einfach, interaktiv und effizient an. PivotCharts ist eine Ergänzung von PivotTables und erlaubt ebenfalls ein einfaches interaktives visualisieren der Daten. Damit können auf einfache Weise Muster erkannt und Vergleiche angestellt werden.
 
-#### Anzahl Kleinkinder nach Stadtquartier (Stand 31.12.2019)
+### Anzahl Kleinkinder nach Stadtquartier (Stand 31.12.2019)
 Beginnen wir zuerst einmal damit herauszufinden, wie viele Kleinkinder es pro Stadtquartier am 31.12.2019 gab.
 
 - **Schritt 1:** Gehe zum Menu **Einfügen**, klicke aufs **PivotChart-Icon** und wähle **PivotChart und PivotTable**.
@@ -121,7 +121,7 @@ Beginnen wir zuerst einmal damit herauszufinden, wie viele Kleinkinder es pro St
 
 <img src="https://user-images.githubusercontent.com/2479732/104037207-ac443580-51d4-11eb-8458-4ee22822d42d.gif" alt="BevBest_Pivot" width="800"/>
 
-#### Anzahl Hunde nach Stadtquartier (Stand 06.03.2020)
+### Anzahl Hunde nach Stadtquartier (Stand 06.03.2020)
 Als nächstes gehen wir analog der vorherigen Schritte vor und analysieren nun, wie viele Hunde es pro Stadtquartier Anfangs März 2020 gab.
 
 - **Schritt 1:** Wechsle ins Arbeitsblatt **Hundebestand_2020** und gehe erneut zum Menu **Einfügen**, klicke aufs **PivotChart-Icon** und wähle **PivotChart und PivotTable**.
@@ -139,9 +139,9 @@ Als nächstes gehen wir analog der vorherigen Schritte vor und analysieren nun, 
 
 
 
-## Teil 3: Datawrapper
+# Teil 3: Datawrapper
 
-### Daten in Datawrapper laden
+## Daten in Datawrapper laden
 
 Datawrapper bietet einen Wizard an, um die Daten zu laden:
 
