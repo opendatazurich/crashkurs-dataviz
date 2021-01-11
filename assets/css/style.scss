@@ -58,7 +58,7 @@ nav {
   width: 280px;
   margin-left: -620px;
 }
-p {
+p li {
   font-size: 1.0625rem;
 }
 
@@ -82,6 +82,11 @@ nav ul li {
 nav ul li.tag-h1 {
  font-size:1.2em;
  color: #0F05A0;
+}
+
+ul {
+ list-style-image: none;
+ list-style-type: square;
 }
 
 nav ul li.tag-h1 a {
