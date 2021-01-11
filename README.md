@@ -150,6 +150,17 @@ Damit wir die Resultate der Anzahl Hunde und Anzahl Kleinkinder pro Stadtquartie
 
 - **Schritt 4:** Wir haben nun das Problem, dass bei den Kleinkindern die Namen und bei den Hunden die IDs der Stadtquartiere angegeben sind. So lassen sich die Werte nicht vergleichen. Daher braucht es hier noch einen Zwischenschritt, in dem wir eine **Zuordungstabelle** von Stadtquartier-IDs zu den -Namen machen.
 
+  - a) Im Arbeitsblatt `Bevölkerungsbestand` kommen sowohl die Quartiernummer als auch der Quartiernamen vor. Erstelle daher in diesem Arbeitsblatt eine neue PivotTable.
+  
+  - b) Wähle das Feld `QuarSort` und ziehe es ins Feld **WERTE**. 
+  
+  - c) Wähle das Feld `QuarLang` und ziehe es ins Feld **ACHSE**. 
+  
+   - d) Wir wollen nicht die Summe der Quartiernummern, sondern die minimalen Werte wissen. Wähle daher mit rechte Maustaste auf *Summe von QuarSort* und wechsle über die Wertfeldeinstellungen von Wertfeld zusammenfassen als Summe auf **Minimum**.  
+   
+   - e) Damit ist die Zuordnungstabelle erstellt. Jede Stadtquartier-ID hat nun einen entsprechenden Stadtquartiernamen.
+   
+- **Schritt 5:** Kopiere die Zuordnungstabelle ins Arbeitsblatt `Vgl_Kleinkinder_Hunde`.
 
 <img src="https://user-images.githubusercontent.com/2479732/104171823-8badf280-5403-11eb-9dce-42cb5e4f97f9.gif" alt="Zuordnungstabelle_Sort" width="800"/>
 
