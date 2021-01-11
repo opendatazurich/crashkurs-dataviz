@@ -173,7 +173,7 @@ Damit wir die Resultate der Anzahl Hunde und Anzahl Kleinkinder pro Stadtquartie
 
 - **Schritt 9:** Stelle das Resultat mit PivotChart als Balkendiagramm dar:
 
-  - a) Füge den Quartiernamen im Feld **ACHSE** und die Differenzwerte im Feld ***WERTE* ein.
+  - a) Füge den Quartiernamen im Feld **ACHSE** und die Differenzwerte im Feld **WERTE** ein.
   - b) Sortiere absteigend nach den Differenzwerten. Klicke dazu in der PivotTable auf das Dropdownzeichen rechts neben *Zeilenbeschriftung*. Klicke auf *Weitere Sortieroptionen*, wähle *Absteigend* und wähle die Differenzwerte aus.
 
 - **Schritt 10:** Ändere den Diagrammtyp auf Balkendiagramm. Klicke mit der rechten Maustaste auf den PivotChart > wähle *Diagrammtyp ändern* > wähle *Balken* > dann *Gruppierte Balken* aus. Layoute das Balkendiagramm (Titel, Höhe, Breite, Farbfüllung, etc.)
