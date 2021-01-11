@@ -29,12 +29,12 @@ Zur Beantwortung der Fragestellung benötigen wir die dazu relevanten Daten. Wir
 
 - **Schritt 7:** Du hast nun die beiden für unsere Fragestellung relevanten Datensätze gefunden und heruntergeladen. Sie heissen `20200306_hundehalter.csv` (Hunde) und `BEV390OD3903.csv`(Bevölkerungsdaten). Kopiere diese beiden Datensätze nun aus dem Downloadverzeichnis Deines Computers und lege sie in ein Verzeichnis, wo Du an den noch folgenden Schritten weiter arbeiten kannst. 
 
-Damit ist unser erster Teil zum Thema «Daten finden und beziehen» beendet. Solltest Du später einmal für eine andere Fragestellunng auf dem Open Data Katalog der Stadt Zürich nicht fündig werden, können auch viele andere Open Data Quellen konsultiert werden. Auf nationaler Ebene werden unter [opendata.swiss](https://opendata.swiss) sämtliche offenen Verwaltungsdaten von verschiedenen Bundesstellen, anderen Kantonen und Städten angeboten. 
+Damit ist unser erster Teil zum Thema «Daten finden und beziehen» beendet. Solltest Du später einmal für eine andere Fragestellung auf dem Open Data Katalog der Stadt Zürich nicht fündig werden, können auch viele andere Open Data Quellen konsultiert werden. Auf nationaler Ebene werden unter [opendata.swiss](https://opendata.swiss) sämtliche offenen Verwaltungsdaten von verschiedenen Bundesstellen, anderen Kantonen und Städten angeboten. 
 
 # Teil 2: Excel
 
 ## CSV... what?
-Eines der Grundprinzipien von Open Data ist, dass die Datenstätze in **nicht-proprietären Formaten** veröffentlicht werden sollen. Sprich, für die Verwendung der Daten sollen die AnwenderInnen nicht auf kommerzielle Software angewiesen sein. Damit soll allen die gleiche Möglichkeit gegeben werden, mit den Daten arbeiten zu können. Das Excelformat (.xls oder .xlsx) ist ein Beispiel eines proprietären Datenformats, weil es zur Verwendung Excel erfordert.
+Eines der Grundprinzipien von Open Data ist, dass die Datensätze in **nicht-proprietären Formaten** veröffentlicht werden sollen. Sprich, für die Verwendung der Daten sollen die AnwenderInnen nicht auf kommerzielle Software angewiesen sein. Damit soll allen die gleiche Möglichkeit gegeben werden, mit den Daten arbeiten zu können. Das Excelformat (.xls oder .xlsx) ist ein Beispiel eines proprietären Datenformats, weil es zur Verwendung Excel erfordert.
 
 Das Standardformat für tabellarische Daten ist daher [CSV](https://de.wikipedia.org/wiki/CSV_(Dateiformat)). CSV steht für **C**omma-**s**eparated **v**alues (komma-getrennte Werte).
 
@@ -60,14 +60,14 @@ Der angezeigte CSV-Auszug oben repräsentiert die folgende Tabelle:
 
 ## CSV-Datensätze in Excel laden
 
-Vielleicht fragst Du Dich unterdessen, wozu der ganze Exkurs über CSV dienlich sein soll...(?) Leider ist es so, dass viele Datennutzende bereits zu diesem Zeitpunkt scheitern, wenn sie noch nie mit CSV gerarbeitet haben und eine CSV-Datei in Excel öffnen wollen. Daher zeigen wir Euch in diesem Abschnitt, wie man vorgehen sollte, wenn man mit CSV-Datensätzen in Excel arbeiten möchte.
+Vielleicht fragst Du Dich unterdessen, wozu der ganze Exkurs über CSV dienlich sein soll...(?) Leider ist es so, dass viele Datennutzende bereits zu diesem Zeitpunkt scheitern, wenn sie noch nie mit CSV gearbeitet haben und eine CSV-Datei in Excel öffnen wollen. Daher zeigen wir Euch in diesem Abschnitt, wie man vorgehen sollte, wenn man mit CSV-Datensätzen in Excel arbeiten möchte.
 
 **Wie es NICHT funktioniert:**
 Ein Doppelklicken auf eine CSV-Datei - wie in unten gezeigter Animation gezeigt - funktioniert leider in den meisten Fällen nicht. Obwohl man gemäss des im Beispiel angezeigten Icons der Datei das Gefühl hätte, dass dies so möglich sein sollte. Folgendes geschieht jedoch stattdessen: 
 
 <img src="https://user-images.githubusercontent.com/2479732/104017881-32528300-51b9-11eb-8d15-39debf3c426a.gif" alt="ExcelFail" />
 
-Die CSV-Datei wird zwar in Excel geöffnet, es findet dabei jedoch keine Trennung der einzelnen Attribute in Spalten statt (vgl. mit der oben gezeigten Tabelle). Mit der hier gezeigten Vorgehensweise sind alle Werte in eine Spalte (hier Spalte A) eingefügt worden. Damit lässt sich nicht bequem weiter arbeiten.
+Die CSV-Datei wird zwar in Excel geöffnet, es findet dabei jedoch keine Trennung der einzelnen Attribute in Spalten statt (vgl. mit der oben gezeigten Tabelle). Mit der hier gezeigten Vorgehensweise sind alle Werte in eine Spalte (hier Spalte A) eingefügt worden. Damit lässt sich nicht bequem weiterarbeiten.
 
 **Der Clou: CSV-Datei muss IMPORTIERT werden**
 
@@ -82,9 +82,9 @@ Damit ihr wie erwartet, basierend auf einem CSV-Datensatz, in Excel weiterarbeit
 - **Schritt 4:** Nun erscheint das Pop-Up mit dem **Textkonvertierungs-Assistenten**, welcher dich durch drei Importschritte führt.
   - a) Wähle **Getrennt** aus, weil unsere Datensätze ja durch Kommas abgetrennt sind. Der Import beginnt in Zeile 1 und das CSV liegt in UTF-8 Kodierung vor. Aktiviere auch das Kästchen, dass die Datei Überschriften hat. Ganz unten siehst Du eine Vorschau, wie gemäss Deiner Auswahl der Import aussehen würde. Klicke nun auf **Weiter**.
   - b) Im nächsten Dialogfeld musst Du nun die Trennzeichen definieren. In unserem Fall, resp. bei CSV, sollte dies immer **Komma** sein. Wähle es aus und beobachte die Veränderung in der Vorschau. Wenn Du zufrieden bist, klicke auf **Weiter**.
-  - c) Im letzten Dialogfeld kannst Du den Datentypen für jede Spalte definieren. Dies ist in den meisten fällen nicht notwendig. In unserem Beispiel wurde noch explizit das Attribut Alter als Text definiert. Dies weil gewisse Werte von Excel z.T. auch als Datum interpretiert werden. Wenn Du zufrieden bist, klicke auf **Weiter**.  
+  - c) Im letzten Dialogfeld kannst Du den Datentypen für jede Spalte definieren. Dies ist in den meisten Fällen nicht notwendig. In unserem Beispiel wurde noch explizit das Attribut Alter als Text definiert. Dies weil gewisse Werte von Excel z.T. auch als Datum interpretiert werden. Wenn Du zufrieden bist, klicke auf **Weiter**.  
   
-- **Schritt 5:** Bestätige mit **OK** den Import in das aktuelle Arbeitsblatt Deines Excelfiles. Voilà, die Daten liegen nun so vor, dass Du mit den Hundedaten nun weiter arbeiten kannst.
+- **Schritt 5:** Bestätige mit **OK** den Import in das aktuelle Arbeitsblatt Deines Excelfiles. Voilà, die Daten liegen nun so vor, dass Du mit den Hundedaten nun weiterarbeiten kannst.
 
 <img src="https://user-images.githubusercontent.com/2479732/104021668-747ec300-51bf-11eb-859d-23aecceabee3.gif" alt="csvImport" />
 
@@ -114,7 +114,7 @@ Beginnen wir zuerst einmal damit herauszufinden, wie viele Kleinkinder es pro St
 - **Schritt 3:** Im neuen Arbeitsblatt erscheinen nun die noch leeren PivotTable- und PivotChart-Flächen. Auf der rechten Seite siehst Du die PivotTable-Felder, welche Du **interaktiv** per drag & drop in vier Bereiche ziehen kannst. 
   - a) **WERTE**: hier werden die zu aggregierenden Wertefelder definiert. In unserem Fall ist das die **Anzahl Personen** aus der wirtschaftlichen Wohnbevölkerung (`AnzBestWir`) .
   - b) **ZEILEN**: hier werden die Felder eingefügt, welche als Zeilen dargestellt werden sollen. In unserem Fall also die **Stadtquartiere** (`QuartLang`). Die Stadtquartiere können mit ihren Namen oder mit ihren offiziellen IDs (`QuartSort`oder `QuartCd`) angezeigt werden.
-  - c) **SPALTEN**: hier könnten weitere Ausprägungen ausgewählt werden, wie z.B. das Geschlecht oder die Herkunft. Für unsere Fragestellung sind diese Felder jedoch nicht relevant. Dehalb bleibt dieser Bereich leer.
+  - c) **SPALTEN**: hier könnten weitere Ausprägungen ausgewählt werden, wie z.B. das Geschlecht oder die Herkunft. Für unsere Fragestellung sind diese Felder jedoch nicht relevant. Deshalb bleibt dieser Bereich leer.
   - d) **FILTER**: hier können für Attribute gewisse Werte aus den Daten gefiltert werden. So müssen wir nun das für uns relevante **Jahr** (`StichtagDatJahr`), also **2019**, auswählen. Ausserdem betrachten wir ja lediglich die Kleinkinder. Wir definieren sie hier als jene Personen in der **Alterskategorie** (`AlterV05Kurz`) **0-4**. Also der Kinder die jünger als 5 Jahre alt sind. Man könnte die Definition selbstverständlich auch anders festlegen.
   
 - **Schritt 4:** Damit haben wir nun bereits die erforderliche Tabelle und eine simple Grafik der Anzahl Kleinkinder pro Stadtquartier Ende 2019. Benenne das Arbeitsblatt wieder, z.B. mit `BevBest_Pivot`.
@@ -130,7 +130,7 @@ Als nächstes gehen wir analog der vorherigen Schritte vor und analysieren nun, 
 - **Schritt 3:** Im neuen Arbeitsblatt erscheinen erneut die leeren PivotTable- und PivotChart-Flächen. Auf der rechten Seite siehst Du nun die PivotTable-Felder aus dem aktuellen Datensatz des Hundebestands, welche Du wieder in die vier Bereiche ziehen kannst. 
   - a) **WERTE**: hier werden die zu aggregierenden Wertefelder definiert. Dieses Mal gilt es zu beachten, dass wir kein Feld wie *Anzahl Hunde* oder ähnliches vorfinden. Dies liegt daran, dass jede Zeile in den Daten einem Hund entspricht. Die **Anzahl Hunde** finden wir jedoch heraus, indem wir das Attribut Halter-ID (`HALTER_ID`) auswählen und in der **Wertfeldeinstellung** (rechte Maustaste auf *Summe von HALTER_ID*) von Wertfeld zusammenfassen als Summe auf **Anzahl** wechseln. Die mit der Option Summe würden alle HALTER_IDs summiert werden, was ja keinen Sinn macht.
   - b) **ZEILEN**: Dieses Mal kommen lediglich numerische Werte für die Stadtquartiere vor. Wir wählen hier daher die Stadtquartier-IDs (`STADTQUARTIER`) aus. 
-  - c) **SPALTEN**: auch hier könnten weitere Ausprägungen ausgewählt werden, wie z.B. die Rasse, die Farbe, das Geburtsjahr oder das Geschlecht des Hundes. Für unsere Fragestellung sind diese Attribute jedoch nicht relevant. Dehalb bleibt dieser Bereich leer.
+  - c) **SPALTEN**: auch hier könnten weitere Ausprägungen ausgewählt werden, wie z.B. die Rasse, die Farbe, das Geburtsjahr oder das Geschlecht des Hundes. Für unsere Fragestellung sind diese Attribute jedoch nicht relevant. Deshalb bleibt dieser Bereich leer.
   - d) **FILTER**: eine Filtervariable benötigen wir dieses Mal nicht, weil sich die Daten ja lediglich auf ein Jahr beziehen. Eine weitere Ausscheidung von Attributwerten ist auch nicht notwendig. Dehalb bleibt dieser Bereich auch leer.
 
 <img src="https://user-images.githubusercontent.com/2479732/104046181-f8e13e00-51df-11eb-8c74-4f3e15db1f8f.gif" alt="HundeBest_Pivot"/>
