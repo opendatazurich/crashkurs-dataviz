@@ -167,6 +167,11 @@ Damit wir die Resultate der Anzahl Hunde und Anzahl Kleinkinder pro Stadtquartie
 <img src="https://user-images.githubusercontent.com/2479732/104171823-8badf280-5403-11eb-9dce-42cb5e4f97f9.gif" alt="Zuordnungstabelle_Sort"/>
 
 
+- **Schritt 7:** Berechne in in einer neuen Spalte die Differenz zwischen der Anzahl Kleinkinder und der Anzahl Hunden.
+
+<img src="https://user-images.githubusercontent.com/2479732/104203191-26222c00-542c-11eb-8e0a-4c3016d04406.gif" alt="DiagrammErstellen"/>
+
+
 # Teil 3: Datawrapper
 
 ## Daten in Datawrapper laden
