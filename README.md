@@ -162,6 +162,8 @@ Damit wir die Resultate der Anzahl Hunde und Anzahl Kleinkinder pro Stadtquartie
    
 - **Schritt 5:** Kopiere die Zuordnungstabelle ins Arbeitsblatt `Vgl_Kleinkinder_Hunde`.
 
+- **Schritt 6:** Sortiere nun (Menu Daten > Sortieren) wie in der Grafik angezeigt zuerst die Werte der Anzahl Kleinkinder nach der Quartiernummer nach Grösse aufsteigend. Verleiche ob die Quartiernummern mit jenen der Anzahl Hunde, ebenfalls nach Grösse aufsteigend sortiert, entspricht. Lösche danach die doppelt vorhandenen Spalten und reihe die Attibute nach Deinem Gusto aneinander.
+
 <img src="https://user-images.githubusercontent.com/2479732/104171823-8badf280-5403-11eb-9dce-42cb5e4f97f9.gif" alt="Zuordnungstabelle_Sort" width="800"/>
 
 
