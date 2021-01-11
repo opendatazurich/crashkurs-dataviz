@@ -7,7 +7,7 @@ Während dieses Kurses gehen wir dem Gerücht nach, ob in den meisten Stadtquart
 
 Damit wir diese Fragestellung einfach und mit für alle Kursteilnehmenden vorhandenen Tools beantworten können, haben wir uns für Excel und [Datawrapper](https://www.datawrapper.de/) entschieden. 
 
-# Teil 1: Daten finden
+# Teil 1: Daten finden und beziehen
 Zur Beantwortung der Fragestellung benötigen wir die dazu relevanten Daten. Wir müssen uns zuerst auf die Suche machen, wo wir die Anzahl Hunde und die Anzahl Kleinkinder pro Stadtquartier und Jahr beziehen können. Wie gut also, dass es in der Stadt Zürich einen [Open Data Katalog](https://data.stadt-zuerich.ch/) gibt, auf dem alle frei verfügbaren Verwaltungsdaten aufgelistet, ausführlich beschrieben und einfach durchsuchbar zum Download vorliegen ;)
 
 - **Schritt 1:** Rufe den Open Data Katalog der Stadt Zürich auf unter: [https://data.stadt-zuerich.ch/](https://data.stadt-zuerich.ch/)
@@ -167,24 +167,30 @@ Damit wir die Resultate der Anzahl Hunde und Anzahl Kleinkinder pro Stadtquartie
 <img src="https://user-images.githubusercontent.com/2479732/104171823-8badf280-5403-11eb-9dce-42cb5e4f97f9.gif" alt="Zuordnungstabelle_Sort"/>
 
 
-- **Schritt 7:** Berechne in in einer neuen Spalte die Differenz zwischen der Anzahl Kleinkinder und der Anzahl Hunden.
+- **Schritt 7:** Berechne in in einer neuen Spalte - im Beispiel namens Diff_Kkinder-Hunde - die Differenz zwischen der Anzahl Kleinkinder und der Anzahl Hunden. Berechne den Wert in der obersten Spalte mit der Formel '=D2 - C2' und ziehe den Punkt unten rechts im grünen Rechteck für alle Quartiere herunter. Die Formel wird so überall korrekt übernommen.
 
+- **Schritt 8:** Sortiere die Differenzen (Spalte E) aufsteigend. Das Resultat ist nun als Tabelle ersichtlich.
+
+- **Schritt 9:** Stelle das Resultat mit PivotChart als Balkendiagramm dar:
+
+  - a) Füge den Quartiernamen im Feld **ACHSE** und die Differenzwerte im Feld ***WERTE* ein.
+  - b) Sortiere absteigend nach den Differenzwerten. Klicke dazu in der PivotTable auf das Dropdownzeichen rechts neben *Zeilenbeschriftung*. Klicke auf *Weitere Sortieroptionen*, wähle *Absteigend* und wähle die Differenzwerte aus.
+
+- **Schritt 10:** Ändere den Diagrammtyp auf Balkendiagramm. Klicke mit der rechten Maustaste auf den PivotChart > wähle *Diagrammtyp ändern* > wähle *Balken* > dann *Gruppierte Balken* aus. Layoute das Balkendiagramm (Titel, Höhe, Breite, Farbfüllung, etc.)
+
+- **Schritt 10:** Falls Dir die Grafik noch zu umfangreich ist, kannst Du auch einzelne Bereiche herausfiltern. Gehe dazu wieder wie in Schritt 9b) vor und wähle dieses Mal *Wertefilter* aus. In der Animation werden z.B. nur jene Stadtquartiere angezeigt, wo die Differenz zwischen Kleinkindern und Hunden kleiner als 50 ist. Alle anderen Werte werden nicht angezeigt.
+  
 <img src="https://user-images.githubusercontent.com/2479732/104203191-26222c00-542c-11eb-8e0a-4c3016d04406.gif" alt="DiagrammErstellen"/>
 
 
-# Teil 3: Datawrapper
+### Überrascht vom Resultat?
+Nun haben wir also Gewissheit: Ende 2019 lebten nur im Stadtquartier **Lindenhof** (Bevölkerungszahl 2019: 1'009) im Kreis 1 mehr Hunde (27) als Kleinkinder (22). Bei allen Stadtquartieren im Kreis 1 war die Differenz zwischen Kleinkindern und Hunden relativ klein.
+Am grössten ist die Differenz hingegen in den Bevölkerungsreichsten Stadtquartieren Altstetten (mit +1'133) und Affoltern (+1'115).
 
-## Daten für Datawrapper vorbereiten
+# Teil 3: Datawrapper
 
 ## Daten in Datawrapper laden
 
 Datawrapper bietet einen Wizard an, um die Daten zu laden:
 
 ![Wizard von Datawrapper um Daten zu laden](https://user-images.githubusercontent.com/538415/102371585-9e790700-3fbe-11eb-966d-58f22547fd1c.png)
-
-## Diagramm erstellen Anzahl Hunde und Kleinkinder pro Quartier
-
-## Daten auf einer Karte visualisieren (Chloropleth)
-
-- Anteil der Kleinkinder in der Gesamtbevölkerung
-- Anzahl Hunde pro Kleinkind (?)
