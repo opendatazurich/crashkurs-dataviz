@@ -137,7 +137,12 @@ Als nächstes gehen wir analog der vorherigen Schritte vor und analysieren nun, 
 
 - **Schritt 4:** Damit haben wir nun die Anzahl Hunde pro Stadtquartier als Tabelle. Benenne das Arbeitsblatt wieder, z.B. mit `HundeBest2020_Pivot`.
 
+### Anzahl Kleinkinder im Vergleich zur Anzahl Hunde pro Stadtquartier
+Damit wir die Resultate der Anzahl Hunde und Anzahl Kleinkinder pro Stadtquartier vergleichen können, kopieren wir am einfachsten die Resultate der Pivot-Tabellen in ein neues Arbeitsblatt.
 
+- **Schritt 1:** Füge ein neues Arbeitsblatt () hinzu. 
+
+<img src="https://user-images.githubusercontent.com/2479732/104167948-86e64000-53fd-11eb-9a1a-152601170a01.gif" alt="VergleicheResultate" width="800"/>
 
 # Teil 3: Datawrapper
 
