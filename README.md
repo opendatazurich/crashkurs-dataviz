@@ -188,20 +188,48 @@ Nun haben wir also Gewissheit: Ende 2019 lebten nur im Stadtquartier **Lindenhof
 Am grössten ist die Differenz hingegen in den bevölkerungsreichsten Stadtquartieren Altstetten (mit +1'133) und Affoltern (+1'115).
 
 # Teil 3: Datawrapper
+Für dieses Kurs verwenden wir das kostenlose Tool [Datawrapper](https://www.datawrapper.de/), welches [ohne Login ausprobiert werden kann](https://app.datawrapper.de/chart/create).
+Es wird bereits von vielen Datenjournalisten eingesetzt, da es sehr benutzerfreundlich ist und sich damit ohne eigenen Code zu schreiben Visualisierungen fürs Web erstellen lassen.
+
+Datawrapper steht hier stellvertretend für viele andere Tools, die einen ähnlichen Funktionsumfang bieten:
+
+* [Tableau](https://www.tableau.com/)
+* [Microsoft Power BI](https://powerbi.microsoft.com/de-de/)
+* [Google Charts](https://developers.google.com/chart)
+* [Plotly](https://plotly.com/)
 
 ## Daten vorbereiten
+Wie wir in [Teil 2](#teil-2-excel) gesehen haben, müssen Daten zuerst in eine Form gebracht werden, in der sie visualisiert werden können.
+In diesem Schritt arbeiten wir also wieder mit der Excel-Datei aus dem letzten Teil.
+Es steht auch eine [Beispiel-Exceldatei zur Verfügung](https://github.com/opendatazurich/crashkurs-dataviz/raw/main/files/daten_excel_crashkurs.zip) (inkl. den _verlinkten_ CSVs).
 
-## Daten in Datawrapper laden
+## Kleinkinder-Hunde Koeffizient
+Im späteren Verlauf möchten wir das Verhältnis zwischen Kleinkindern und Hunden auf einer Karte der Stadt Zürich darstellen.
+Dazu werden wir eine sogenannte [Chloroplethenkarte (Flächenkartogramm)](https://de.wikipedia.org/wiki/Choroplethenkarte) erstellen.
+Auf solchen thematischen Karten wird das Verhältnis einer Grösse zum Gebiet dargestellt (z.B. Bevölkerungsdichte).
+
+Aus diesem Grund fügen wir im Excel auf dem bestehenden Arbeitsblatt `Vgl_Kleinkinder_Hunde` eine weitere Spalte hinzu.
+
+- **Schritt 1:** Gehe zum Arbeitsblatt `Vgl_Kleinkinder_Hunde`.
+- **Schritt 2:** Füge eine neue Spalte KleinkinderHundeKoeffizient hinzu
+- **Schritt 3:** Berechne in dieser neuen Spalte das Verhältnis zwischen der Anzahl Kleinkinder und der Anzahl Hunden. Berechne den Wert in der obersten Spalte mit der Formel '=D2 / C2' und ziehe den Punkt unten rechts im grünen Rechteck für alle Quartiere herunter. Die Formel wird so überall korrekt übernommen.
+
+### Daten in Datawrapper laden
+
+### Chlorplethenkarte erstellen
+
+## Hunde nach Stadtquartier und Geschlecht
+Als Abschluss möchten wir noch eine interaktive Grafik erstellen basierend auf dem Hundebestand.
+Dazu müssen wir eine neue Pivot-Tabelle erstellen, mit der wir die Werte für die Grafik aggregieren können.
+
+
+### Daten in Datawrapper laden
 
 Datawrapper bietet einen Wizard an, um die Daten zu laden:
 
 ![Wizard von Datawrapper um Daten zu laden](https://user-images.githubusercontent.com/538415/102371585-9e790700-3fbe-11eb-966d-58f22547fd1c.png)
 
-## Diagramm erstellen
+### Diagramm erstellen
 
 - Anzahl Hunde und Kleinkinder pro Quartier
 
-## Daten auf Karte visualisieren
-
-- Anteil der Kleinkinder in der Gesamtbevölkerung
-- Anzahl Hunde pro Kleinkind (?)
