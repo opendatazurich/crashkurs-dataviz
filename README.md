@@ -189,7 +189,7 @@ Am grössten ist die Differenz hingegen in den bevölkerungsreichsten Stadtquart
 
 # Teil 3: Datawrapper
 
-## Daten für Datawrapper vorbereiten
+## Daten vorbereiten
 
 ## Daten in Datawrapper laden
 
