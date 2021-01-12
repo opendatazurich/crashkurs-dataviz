@@ -183,7 +183,7 @@ Damit wir die Resultate der Anzahl Hunde und Anzahl Kleinkinder pro Stadtquartie
 <img src="https://user-images.githubusercontent.com/2479732/104203191-26222c00-542c-11eb-8e0a-4c3016d04406.gif" alt="DiagrammErstellen"/>
 
 
-### Überrascht vom Resultat?
+## Überrascht vom Resultat?
 Nun haben wir also Gewissheit: Ende 2019 lebten nur im Stadtquartier **Lindenhof** (Bevölkerungszahl 2019: 1'009) im Kreis 1 mehr Hunde (27) als Kleinkinder (22). Bei allen Stadtquartieren im Kreis 1 war die Differenz zwischen Kleinkindern und Hunden relativ klein.
 Am grössten ist die Differenz hingegen in den bevölkerungsreichsten Stadtquartieren Altstetten (mit +1'133) und Affoltern (+1'115).
 
@@ -197,9 +197,11 @@ Datawrapper bietet einen Wizard an, um die Daten zu laden:
 
 ![Wizard von Datawrapper um Daten zu laden](https://user-images.githubusercontent.com/538415/102371585-9e790700-3fbe-11eb-966d-58f22547fd1c.png)
 
-## Diagramm erstellen Anzahl Hunde und Kleinkinder pro Quartier
+## Diagramm erstellen
 
-## Daten auf einer Karte visualisieren (Chloropleth)
+- Anzahl Hunde und Kleinkinder pro Quartier
+
+## Daten auf Karte visualisieren
 
 - Anteil der Kleinkinder in der Gesamtbevölkerung
 - Anzahl Hunde pro Kleinkind (?)
