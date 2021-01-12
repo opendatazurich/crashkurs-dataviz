@@ -65,8 +65,12 @@ header {
 	}
 }
 
+.active a {
+	font-weight: bold;
+}
+
 nav {
-  width: 280px;
+  width: 290px;
   margin-left: -620px;
   top: 140px;
 }
