@@ -204,7 +204,7 @@ In diesem Schritt arbeiten wir also wieder mit der Excel-Datei aus dem letzten T
 Es steht auch eine [Beispiel-Exceldatei zur Verfügung](https://github.com/opendatazurich/crashkurs-dataviz/raw/main/files/daten_excel_crashkurs.zip) (inkl. den _verlinkten_ CSVs).
 
 ## Hunde nach Stadtquartier und Geschlecht
-Als Abschluss möchten wir noch eine interaktive Grafik erstellen basierend auf dem Hundebestand.
+Als nächstes möchten wir eine interaktive Grafik erstellen basierend auf dem Hundebestand.
 Dazu müssen wir eine neue Pivot-Tabelle erstellen, mit der wir die Werte für die Grafik aggregieren können:
 
 - **Schritt 1:** Wechsle ins Arbeitsblatt `Hundebestand_2020` und gehe zum Menu **Einfügen**, klicke auf **PivotTable**.
@@ -246,7 +246,7 @@ Voilà, hier das Resultat (ein Klick auf das Bild öffnet die interaktive Grafik
 [![Diagramm von Datawrapper](https://user-images.githubusercontent.com/538415/104390214-750bb680-553d-11eb-85b5-bb2fbe5e88e4.png)](https://datawrapper.dwcdn.net/FWDgZ/1/)
 
 ## Kleinkinder-Hunde Koeffizient
-Im späteren Verlauf möchten wir das Verhältnis zwischen Kleinkindern und Hunden auf einer Karte der Stadt Zürich darstellen.
+Als Abschluss möchten wir das Verhältnis zwischen Kleinkindern und Hunden auf einer Karte der Stadt Zürich darstellen.
 Dazu werden wir eine sogenannte [Choroplethenkarte (Flächenkartogramm)](https://de.wikipedia.org/wiki/Choroplethenkarte) erstellen.
 Auf solchen thematischen Karten wird das Verhältnis einer Grösse zum Gebiet dargestellt (z.B. Bevölkerungsdichte).
 
