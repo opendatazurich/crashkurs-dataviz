@@ -156,9 +156,9 @@ Damit wir die Resultate der Anzahl Hunde und Anzahl Kleinkinder pro Stadtquartie
   
   - c) Wähle das Feld `QuarLang` und ziehe es ins Feld **ACHSE**. 
   
-   - d) Wir wollen nicht die Summe der Quartiernummern, sondern die minimalen Werte wissen. Wähle daher mit rechte Maustaste auf *Summe von QuarSort* und wechsle über die Wertfeldeinstellungen von Wertfeld zusammenfassen als Summe auf **Minimum**.  
+  - d) Wir wollen nicht die Summe der Quartiernummern, sondern die minimalen Werte wissen. Wähle daher mit rechte Maustaste auf *Summe von QuarSort* und wechsle über die Wertfeldeinstellungen von Wertfeld zusammenfassen als Summe auf **Minimum**.  
    
-   - e) Damit ist die Zuordnungstabelle erstellt. Jede Stadtquartier-ID hat nun einen entsprechenden Stadtquartiernamen.
+  - e) Damit ist die Zuordnungstabelle erstellt. Jede Stadtquartier-ID hat nun einen entsprechenden Stadtquartiernamen.
    
 - **Schritt 5:** Kopiere die Zuordnungstabelle ins Arbeitsblatt `Vgl_Kleinkinder_Hunde`.
 
@@ -188,20 +188,88 @@ Nun haben wir also Gewissheit: Ende 2019 lebten nur im Stadtquartier **Lindenhof
 Am grössten ist die Differenz hingegen in den bevölkerungsreichsten Stadtquartieren Altstetten (mit +1'133) und Affoltern (+1'115).
 
 # Teil 3: Datawrapper
+Für dieses Kurs verwenden wir das kostenlose Tool [Datawrapper](https://www.datawrapper.de/), welches [ohne Login ausprobiert werden kann](https://app.datawrapper.de/chart/create).
+Es wird bereits von vielen Datenjournalisten eingesetzt, da es sehr benutzerfreundlich ist und sich damit ohne eigenen Code zu schreiben Visualisierungen fürs Web erstellen lassen.
+
+Datawrapper steht hier stellvertretend für viele andere Tools, die einen ähnlichen Funktionsumfang bieten:
+
+* [Tableau](https://www.tableau.com/)
+* [Microsoft Power BI](https://powerbi.microsoft.com/de-de/)
+* [Google Charts](https://developers.google.com/chart)
+* [Plotly](https://plotly.com/)
 
 ## Daten vorbereiten
+Wie wir in [Teil 2](#teil-2-excel) gesehen haben, müssen Daten zuerst in eine Form gebracht werden, in der sie visualisiert werden können.
+In diesem Schritt arbeiten wir also wieder mit der Excel-Datei aus dem letzten Teil.
+Es steht auch eine [Beispiel-Exceldatei zur Verfügung](https://github.com/opendatazurich/crashkurs-dataviz/raw/main/files/daten_excel_crashkurs.zip) (inkl. den _verlinkten_ CSVs).
 
-## Daten in Datawrapper laden
+## Hunde nach Stadtquartier und Geschlecht
+Als Abschluss möchten wir noch eine interaktive Grafik erstellen basierend auf dem Hundebestand.
+Dazu müssen wir eine neue Pivot-Tabelle erstellen, mit der wir die Werte für die Grafik aggregieren können:
 
-Datawrapper bietet einen Wizard an, um die Daten zu laden:
+- **Schritt 1:** Wechsle ins Arbeitsblatt `Hundebestand_2020` und gehe zum Menu **Einfügen**, klicke auf **PivotTable**.
+- **Schritt 2:** Mit dem Pop-Up **PivotTable erstellen** wirst Du wieder aufgefordert, den Tabellenbereich der analysiert werden soll auszuwählen. Dieses Mal sollte sich die Tabelle auf die pivotiert wird selbstverständlich auf den Hundebestand 2020 beziehen. Klicke danach auf **OK**.
+- **Schritt 3:** Im neuen Arbeitsblatt erscheinen nun die noch leeren PivotTable-Flächen. Erstelle eine Pivot-Tabelle mit folgenden Angaben:
+  - a) **WERTE**: Anzahl Halter-ID (`HALTER_ID`) auswählen und in der **Wertfeldeinstellung** (rechte Maustaste auf *Summe von HALTER_ID*) von Wertfeld zusammenfassen als Summe auf **Anzahl** wechseln.
+  - b) **ZEILEN**: Stadtquartier-IDs (`STADTQUARTIER`)
+  - c) **SPALTEN**: Geschlecht des Hundes (`GESCHLECHT_HUND`)
+  
+![Pivot-Tabelle für Hunde nach Stadtquartier und Geschlecht](https://user-images.githubusercontent.com/538415/104384802-5eac2d80-5532-11eb-906d-8d5836cee961.png)
+
+- **Schritt 4:** Kopiere die Werte der Anzahl Hund pro Stadtquartier und Geschlecht und füge sie in ein neues Arbeitsblatt ein.
+- **Schritt 5:** Kopiere die Zuordnungstabelle ([siehe weiter oben](#vergleich-zur-anzahl-hunde-und-kleinkinder) zwischen Quartiernamen und -nummern ebenfalls in dieses neue Arbeitsblatt ein
+- **Schritt 6:** Benenne die Spalten und Tabellenblätter aussagekräftig, z.B. männlich, weiblich und Quartier
+
+![Zuordnungstabelle hinzufügen](https://user-images.githubusercontent.com/538415/104387735-0a0bb100-5538-11eb-892d-a17ef0b0d17c.gif)
+
+### Daten in Datawrapper laden
+Um die Daten von Excel zu Datawrapper zu importieren, kann der [Wizard von Datawrapper](https://app.datawrapper.de/chart/create) verwendet werden.
 
 ![Wizard von Datawrapper um Daten zu laden](https://user-images.githubusercontent.com/538415/102371585-9e790700-3fbe-11eb-966d-58f22547fd1c.png)
 
-## Diagramm erstellen
+- **Schritt 1:** In Excel die Tabelle kopieren und bei Datawrapper im Textfeld wieder eingefügt werden.
+- **Schritt 2:** Klick auf **Weiter** und anschliessend die Daten überprüfen (Sind alle Spalten da? Wurden die Datentypen richtig erkannt?)
+- **Schritt 3:** Um männlich/weiblich als Kategorien zu nutzen für jedes Quartier, sollte die Tabelle noch transponiert werden (Spalten und Zeilen vertauschen)
 
-- Anzahl Hunde und Kleinkinder pro Quartier
+![Daten zu Datawrapper kopieren](https://user-images.githubusercontent.com/538415/104389217-3ffe6480-553b-11eb-8b28-3d5041e2565a.gif)
 
-## Daten auf Karte visualisieren
+### Diagramm erstellen
+Im letzten Schritt geht es jetzt noch darum, das Diagramm zu definieren.
+Die vorliegenden Daten zeigen pro Quartier die Anzahl weibliche und die Anzahl männliche Hunde.
+Es liegt daher nahe ein gestapeltes Säulendiagramm zu erstellen, da ein Balken pro Quartier für alle Hunde steht und dieser nach Geschlecht aufgeteilt ist.
 
-- Anteil der Kleinkinder in der Gesamtbevölkerung
-- Anzahl Hunde pro Kleinkind (?)
+![Diagramm anpassen](https://user-images.githubusercontent.com/538415/104390094-35dd6580-553d-11eb-9eef-a77456092750.gif)
+
+### Resultat
+Voilà, hier das Resultat (ein Klick auf das Bild öffnet die interaktive Grafik):
+
+[![Diagramm von Datawrapper](https://user-images.githubusercontent.com/538415/104390214-750bb680-553d-11eb-85b5-bb2fbe5e88e4.png)](https://datawrapper.dwcdn.net/FWDgZ/1/)
+
+## Kleinkinder-Hunde Koeffizient
+Im späteren Verlauf möchten wir das Verhältnis zwischen Kleinkindern und Hunden auf einer Karte der Stadt Zürich darstellen.
+Dazu werden wir eine sogenannte [Chloroplethenkarte (Flächenkartogramm)](https://de.wikipedia.org/wiki/Choroplethenkarte) erstellen.
+Auf solchen thematischen Karten wird das Verhältnis einer Grösse zum Gebiet dargestellt (z.B. Bevölkerungsdichte).
+
+Aus diesem Grund fügen wir im Excel auf dem bestehenden Arbeitsblatt `Vgl_Kleinkinder_Hunde` eine weitere Spalte hinzu.
+
+- **Schritt 1:** Gehe zum Arbeitsblatt `Vgl_Kleinkinder_Hunde`.
+- **Schritt 2:** Füge eine neue Spalte KleinkinderHundeKoeffizient hinzu
+- **Schritt 3:** Berechne in dieser neuen Spalte das Verhältnis zwischen der Anzahl Kleinkinder und der Anzahl Hunden. Berechne den Wert in der obersten Spalte mit der Formel '=D2 / C2' und ziehe den Punkt unten rechts im grünen Rechteck für alle Quartiere herunter. Die Formel wird so überall korrekt übernommen.
+
+### Chlorplethenkarte erstellen
+Neben den Diagrammen, können mit Datawrapper auch [einfache Karten erstellt](https://app.datawrapper.de/create/map) werden.
+
+- **Schritt 1:** Gehen zum Datawrapper Wizard und wähle **Neue Karte** -> **Choroplethen-Karte**
+- **Schritt 2:** Suche nach "Zürich Quartier" und wähle die Standardkarte **Schweiz » Zürich » Stadtquartiere**
+![Karte auswählen](https://user-images.githubusercontent.com/538415/104391079-6aeab780-553f-11eb-84d8-06103ecf3a60.png)
+- **Schritt 3:** Klicke auf **Weiter** und wähle **Codes** als Geo-Code
+- **Schritt 3:** Klicke auf **Importiere deinen Datensatz** und kopiere die Tabelle vom Arbeitsblatt `Vgl_Kleinkinder_Hunde`, die du dann anschliessend in Datawrapper einfügen kannst
+- **Schritt 4:** Wähle die Spalte `Quartiernummer` als Code-Spalte und die Spalte `KleinkinderHundeKoeffizient` als Wert-Spalte
+
+Anschliessend können noch Anpassungen an der Karte vorgenommen werden wie z.B. das verändern der Farbskala oder das einzigen der Quartiernamen anstatt der Codes.
+
+### Resultat
+
+Voilà, hier das Resultat (ein Klick auf das Bild öffnet die interaktive Karte):
+[![Choroplethen-Karte](https://user-images.githubusercontent.com/538415/104391949-54ddf680-5541-11eb-8cea-512e5116e27c.png)](https://datawrapper.dwcdn.net/dq1wu/1/)
+
