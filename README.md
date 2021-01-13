@@ -294,7 +294,9 @@ Beispiele:
 
 ### Programmierung (R, Python, SPARQL)
 - [Data analysis with Python](https://csmastersuh.github.io/data_analysis_with_python_2020/)
-- [Information Visualization](https://infovis.fh-potsdam.de/tutorials/).
+- [Information Visualization (Python)](https://infovis.fh-potsdam.de/tutorials/).
+- [Getting started with data visualization in R using ggplot2](https://www.storybench.org/getting-started-data-visualization-r-using-ggplot2/)
+- [Rddj - Hand-curated, high quality resources for doing data journalism with R.](https://rddj.info/)
 - [Einführung in Wikidata](https://www.wikidata.org/wiki/Wikidata:Tours), siehe dazu auch das [Trainingsmaterial von Open Data Zürich zu Wikidata](https://github.com/opendatazurich/wikidata-training).
 - Jupyter Notebooks von Open Data Zürich zu
   - [Geoportal](https://github.com/opendatazurich/opendatazurich.github.io/blob/master/geoportal/Geoportal-Beispiele.ipynb)
