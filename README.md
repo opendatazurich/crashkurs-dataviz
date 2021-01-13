@@ -203,21 +203,6 @@ Wie wir in [Teil 2](#teil-2-excel) gesehen haben, müssen Daten zuerst in eine F
 In diesem Schritt arbeiten wir also wieder mit der Excel-Datei aus dem letzten Teil.
 Es steht auch eine [Beispiel-Exceldatei zur Verfügung](https://github.com/opendatazurich/crashkurs-dataviz/raw/main/files/daten_excel_crashkurs.zip) (inkl. den _verlinkten_ CSVs).
 
-## Kleinkinder-Hunde Koeffizient
-Im späteren Verlauf möchten wir das Verhältnis zwischen Kleinkindern und Hunden auf einer Karte der Stadt Zürich darstellen.
-Dazu werden wir eine sogenannte [Chloroplethenkarte (Flächenkartogramm)](https://de.wikipedia.org/wiki/Choroplethenkarte) erstellen.
-Auf solchen thematischen Karten wird das Verhältnis einer Grösse zum Gebiet dargestellt (z.B. Bevölkerungsdichte).
-
-Aus diesem Grund fügen wir im Excel auf dem bestehenden Arbeitsblatt `Vgl_Kleinkinder_Hunde` eine weitere Spalte hinzu.
-
-- **Schritt 1:** Gehe zum Arbeitsblatt `Vgl_Kleinkinder_Hunde`.
-- **Schritt 2:** Füge eine neue Spalte KleinkinderHundeKoeffizient hinzu
-- **Schritt 3:** Berechne in dieser neuen Spalte das Verhältnis zwischen der Anzahl Kleinkinder und der Anzahl Hunden. Berechne den Wert in der obersten Spalte mit der Formel '=D2 / C2' und ziehe den Punkt unten rechts im grünen Rechteck für alle Quartiere herunter. Die Formel wird so überall korrekt übernommen.
-
-### Daten in Datawrapper laden
-
-### Chlorplethenkarte erstellen
-
 ## Hunde nach Stadtquartier und Geschlecht
 Als Abschluss möchten wir noch eine interaktive Grafik erstellen basierend auf dem Hundebestand.
 Dazu müssen wir eine neue Pivot-Tabelle erstellen, mit der wir die Werte für die Grafik aggregieren können:
@@ -255,10 +240,36 @@ Es liegt daher nahe ein gestapeltes Säulendiagramm zu erstellen, da ein Balken 
 
 ![Diagramm anpassen](https://user-images.githubusercontent.com/538415/104390094-35dd6580-553d-11eb-9eef-a77456092750.gif)
 
-
-## Resultat
-
+### Resultat
 Voilà, hier das Resultat (ein Klick auf das Bild öffnet die interaktive Grafik):
 
 [![Diagramm von Datawrapper](https://user-images.githubusercontent.com/538415/104390214-750bb680-553d-11eb-85b5-bb2fbe5e88e4.png)](https://datawrapper.dwcdn.net/FWDgZ/1/)
+
+## Kleinkinder-Hunde Koeffizient
+Im späteren Verlauf möchten wir das Verhältnis zwischen Kleinkindern und Hunden auf einer Karte der Stadt Zürich darstellen.
+Dazu werden wir eine sogenannte [Chloroplethenkarte (Flächenkartogramm)](https://de.wikipedia.org/wiki/Choroplethenkarte) erstellen.
+Auf solchen thematischen Karten wird das Verhältnis einer Grösse zum Gebiet dargestellt (z.B. Bevölkerungsdichte).
+
+Aus diesem Grund fügen wir im Excel auf dem bestehenden Arbeitsblatt `Vgl_Kleinkinder_Hunde` eine weitere Spalte hinzu.
+
+- **Schritt 1:** Gehe zum Arbeitsblatt `Vgl_Kleinkinder_Hunde`.
+- **Schritt 2:** Füge eine neue Spalte KleinkinderHundeKoeffizient hinzu
+- **Schritt 3:** Berechne in dieser neuen Spalte das Verhältnis zwischen der Anzahl Kleinkinder und der Anzahl Hunden. Berechne den Wert in der obersten Spalte mit der Formel '=D2 / C2' und ziehe den Punkt unten rechts im grünen Rechteck für alle Quartiere herunter. Die Formel wird so überall korrekt übernommen.
+
+### Chlorplethenkarte erstellen
+Neben den Diagrammen, können mit Datawrapper auch [einfache Karten erstellt](https://app.datawrapper.de/create/map) werden.
+
+- **Schritt 1:** Gehen zum Datawrapper Wizard und wähle **Neue Karte** -> **Choroplethen-Karte**
+- **Schritt 2:** Suche nach "Zürich Quartier" und wähle die Standardkarte **Schweiz » Zürich » Stadtquartiere**
+![Karte auswählen](https://user-images.githubusercontent.com/538415/104391079-6aeab780-553f-11eb-84d8-06103ecf3a60.png)
+- **Schritt 3:** Klicke auf **Weiter** und wähle **Codes** als Geo-Code
+- **Schritt 3:** Klicke auf **Importiere deinen Datensatz** und kopiere die Tabelle vom Arbeitsblatt `Vgl_Kleinkinder_Hunde`, die du dann anschliessend in Datawrapper einfügen kannst
+- **Schritt 4:** Wähle die Spalte `Quartiernummer` als Code-Spalte und die Spalte `KleinkinderHundeKoeffizient` als Wert-Spalte
+
+Anschliessend können noch Anpassungen an der Karte vorgenommen werden wie z.B. das verändern der Farbskala oder das einzigen der Quartiernamen anstatt der Codes.
+
+### Resultat
+
+Voilà, hier das Resultat (ein Klick auf das Bild öffnet die interaktive Karte):
+[![Choroplethen-Karte](https://user-images.githubusercontent.com/538415/104391949-54ddf680-5541-11eb-8cea-512e5116e27c.png)](https://datawrapper.dwcdn.net/dq1wu/1/)
 
