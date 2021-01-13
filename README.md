@@ -247,7 +247,7 @@ Voilà, hier das Resultat (ein Klick auf das Bild öffnet die interaktive Grafik
 
 ## Kleinkinder-Hunde Koeffizient
 Im späteren Verlauf möchten wir das Verhältnis zwischen Kleinkindern und Hunden auf einer Karte der Stadt Zürich darstellen.
-Dazu werden wir eine sogenannte [Chloroplethenkarte (Flächenkartogramm)](https://de.wikipedia.org/wiki/Choroplethenkarte) erstellen.
+Dazu werden wir eine sogenannte [Choroplethenkarte (Flächenkartogramm)](https://de.wikipedia.org/wiki/Choroplethenkarte) erstellen.
 Auf solchen thematischen Karten wird das Verhältnis einer Grösse zum Gebiet dargestellt (z.B. Bevölkerungsdichte).
 
 Aus diesem Grund fügen wir im Excel auf dem bestehenden Arbeitsblatt `Vgl_Kleinkinder_Hunde` eine weitere Spalte hinzu.
@@ -256,7 +256,7 @@ Aus diesem Grund fügen wir im Excel auf dem bestehenden Arbeitsblatt `Vgl_Klein
 - **Schritt 2:** Füge eine neue Spalte KleinkinderHundeKoeffizient hinzu
 - **Schritt 3:** Berechne in dieser neuen Spalte das Verhältnis zwischen der Anzahl Kleinkinder und der Anzahl Hunden. Berechne den Wert in der obersten Spalte mit der Formel '=D2 / C2' und ziehe den Punkt unten rechts im grünen Rechteck für alle Quartiere herunter. Die Formel wird so überall korrekt übernommen.
 
-### Chlorplethenkarte erstellen
+### Choroplethenkarte erstellen
 Neben den Diagrammen, können mit Datawrapper auch [einfache Karten erstellt](https://app.datawrapper.de/create/map) werden.
 
 - **Schritt 1:** Gehen zum Datawrapper Wizard und wähle **Neue Karte** -> **Choroplethen-Karte**
