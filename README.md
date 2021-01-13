@@ -271,5 +271,5 @@ Anschliessend können noch Anpassungen an der Karte vorgenommen werden wie z.B. 
 ### Resultat
 
 Voilà, hier das Resultat (ein Klick auf das Bild öffnet die interaktive Karte):
-[![Choroplethen-Karte](https://user-images.githubusercontent.com/538415/104391949-54ddf680-5541-11eb-8cea-512e5116e27c.png)](https://datawrapper.dwcdn.net/dq1wu/1/)
+[![Choroplethen-Karte](https://user-images.githubusercontent.com/538415/104439523-79fa5580-5591-11eb-8d91-8946e0d3954d.png)](https://datawrapper.dwcdn.net/dq1wu/1/)
 
