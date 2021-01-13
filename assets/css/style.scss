@@ -127,13 +127,14 @@ h1 {
 }
 
 #logo {
-    position:absolute;
-    height: 36px;
-    width: 36px;
+    height: 32px;
+    width: 32px;
     right:7px;
     top:7px;
     display: block;
-    background: url(../images/octocat-logo.svg);
+    background:url(../images/github-mark-32px.png) no-repeat;
+    float: right;
+    margin-left: 5px;
 }
 
 @media print, screen and (max-width: 1060px) {
