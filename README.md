@@ -273,3 +273,31 @@ Anschliessend können noch Anpassungen an der Karte vorgenommen werden wie z.B. 
 Voilà, hier das Resultat (ein Klick auf das Bild öffnet die interaktive Karte):
 [![Choroplethen-Karte](https://user-images.githubusercontent.com/538415/104439523-79fa5580-5591-11eb-8d91-8946e0d3954d.png)](https://datawrapper.dwcdn.net/dq1wu/1/)
 
+# Anhänge
+## Excel-Datei
+Die Excel-Datei, auf der dieser Kurs basiert, kann von GitHub heruntergeladen werden: [ZIP-Datei mit den verlinkten CSVs](https://github.com/opendatazurich/crashkurs-dataviz/raw/main/files/daten_excel_crashkurs.zip).
+[![Excel-Datei](https://user-images.githubusercontent.com/538415/104441265-bb8c0000-5593-11eb-91ac-daf61d617bc1.png)](ttps://github.com/opendatazurich/crashkurs-dataviz/raw/main/files/daten_excel_crashkurs.zip)
+
+Beim Öffnen wird Excel eine Warnung anzeigen, dass die Datei repariert werden muss.
+Dies liegt daran, dass der Pfad zu den CSV-Dateien nicht gefunden wird.
+Der Fehler kann ignoriert werden für diesen Kurs.
+
+## Tutorials
+### Datawrapper
+Datawrapper hat eine Reihe von [Tutorials](https://academy.datawrapper.de/) und [Schulungsunterlagen](https://www.datawrapper.de/training-materials/), die die einzelnen Diagramm- und Karten-Typen erklären und wie damit Visualisierungen erstellt werden können.
+
+Beispiele:
+
+- [Let’s build a stacked bar chart](https://www.datawrapper.de/training-materials/#exercise-1)
+- [How to create a grouped column chart](https://academy.datawrapper.de/article/21-how-to-create-a-grouped-column-chart)
+- [How to choose the best interpolation for your colors (choropleth map)](https://academy.datawrapper.de/article/117-color-palette-for-your-map)
+
+### Programmierung (R, Python, SPARQL)
+- [Data analysis with Python](https://csmastersuh.github.io/data_analysis_with_python_2020/)
+- [Information Visualization](https://infovis.fh-potsdam.de/tutorials/).
+- [Einführung in Wikidata](https://www.wikidata.org/wiki/Wikidata:Tours), siehe dazu auch das [Trainingsmaterial von Open Data Zürich zu Wikidata](https://github.com/opendatazurich/wikidata-training).
+- Jupyter Notebooks von Open Data Zürich zu
+  - [Geoportal](https://github.com/opendatazurich/opendatazurich.github.io/blob/master/geoportal/Geoportal-Beispiele.ipynb)
+  - [Luftqualitätsmessungen](https://github.com/opendatazurich/quality-checks/blob/master/luftqualitaet/Luftschadstoffdaten%20(1983%20bis%20heute).ipynb)
+  - [Visualisierung von CSV mit Python/matplotlib](https://github.com/opendatazurich/opendatazurich.github.io/blob/master/csv/CSV%20mit%20Python%20verarbeiten%20(matplotlib).ipynb)
+  - [Zürich Tourismus API](https://github.com/opendatazurich/opendatazurich.github.io/blob/master/zt-api/ZuerichTourismusAPI-Beispiele.ipynb)
