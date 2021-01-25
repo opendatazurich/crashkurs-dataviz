@@ -120,7 +120,7 @@ Beginnen wir zuerst einmal damit herauszufinden, wie viele Kleinkinder es pro St
   - c) **SPALTEN**: hier könnten weitere Ausprägungen ausgewählt werden, wie z.B. das Geschlecht oder die Herkunft. Für unsere Fragestellung sind diese Felder jedoch nicht relevant. Deshalb bleibt dieser Bereich leer.
   - d) **FILTER**: hier können für Attribute gewisse Werte aus den Daten gefiltert werden. So müssen wir nun das für uns relevante **Jahr** (`StichtagDatJahr`), also **2019**, auswählen. Ausserdem betrachten wir ja lediglich die Kleinkinder. Wir definieren sie hier als jene Personen in der **Alterskategorie** (`AlterV05Kurz`) **0-4**. Also der Kinder die jünger als 5 Jahre alt sind. Man könnte die Definition selbstverständlich auch anders festlegen.
   
-  <video src="https://user-images.githubusercontent.com/2479732/105727578-897f8400-5f2b-11eb-952d-3d28126196c3.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="05_bevbest_pivot" src="https://user-images.githubusercontent.com/2479732/104037207-ac443580-51d4-11eb-8458-4ee22822d42d.gif"/></video>
+  <video preload="none" poster="https://user-images.githubusercontent.com/2479732/104037207-ac443580-51d4-11eb-8458-4ee22822d42d.gif" src="https://user-images.githubusercontent.com/2479732/105727578-897f8400-5f2b-11eb-952d-3d28126196c3.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="05_bevbest_pivot" src="https://user-images.githubusercontent.com/2479732/104037207-ac443580-51d4-11eb-8458-4ee22822d42d.gif"/></video>
   
 - **Schritt 4:** Damit haben wir nun bereits die erforderliche Tabelle und eine simple Grafik der Anzahl Kleinkinder pro Stadtquartier Ende 2019. Benenne das Arbeitsblatt wieder, z.B. mit `BevBest_Pivot`.
 
