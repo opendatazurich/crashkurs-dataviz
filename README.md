@@ -221,9 +221,9 @@ Dazu müssen wir eine neue Pivot-Tabelle erstellen, mit der wir die Werte für d
 - **Schritt 5:** Kopiere die Zuordnungstabelle ([siehe weiter oben](#vergleich-zur-anzahl-hunde-und-kleinkinder) zwischen Quartiernamen und -nummern ebenfalls in dieses neue Arbeitsblatt ein
 - **Schritt 6:** Benenne die Spalten und Tabellenblätter aussagekräftig, z.B. männlich, weiblich und Quartier
 
-![Zuordnungstabelle hinzufügen](https://user-images.githubusercontent.com/538415/104387735-0a0bb100-5538-11eb-892d-a17ef0b0d17c.gif)
 
-<video src="https://user-images.githubusercontent.com/538415/105688230-a307d800-5ef9-11eb-92e1-d16ba427a912.mp4" controls="controls" muted="muted" style="max-height:640px;"></video>
+<video src="https://user-images.githubusercontent.com/538415/105688230-a307d800-5ef9-11eb-92e1-d16ba427a912.mp4" controls="controls" muted="muted" style="max-height:640px;">
+![Zuordnungstabelle hinzufügen](https://user-images.githubusercontent.com/538415/104387735-0a0bb100-5538-11eb-892d-a17ef0b0d17c.gif)</video>
 
 ### Daten in Datawrapper laden
 Um die Daten von Excel zu Datawrapper zu importieren, kann der [Wizard von Datawrapper](https://app.datawrapper.de/chart/create) verwendet werden.
