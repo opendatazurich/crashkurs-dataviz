@@ -223,7 +223,7 @@ Dazu müssen wir eine neue Pivot-Tabelle erstellen, mit der wir die Werte für d
 
 
 <video src="https://user-images.githubusercontent.com/538415/105688230-a307d800-5ef9-11eb-92e1-d16ba427a912.mp4" controls="controls" muted="muted" style="max-height:640px;">
-![Zuordnungstabelle hinzufügen](https://user-images.githubusercontent.com/538415/104387735-0a0bb100-5538-11eb-892d-a17ef0b0d17c.gif)</video>
+<img alt="Zuordnungstabelle hinzufügen" src="https://user-images.githubusercontent.com/538415/104387735-0a0bb100-5538-11eb-892d-a17ef0b0d17c.gif"/></video>
 
 ### Daten in Datawrapper laden
 Um die Daten von Excel zu Datawrapper zu importieren, kann der [Wizard von Datawrapper](https://app.datawrapper.de/chart/create) verwendet werden.
