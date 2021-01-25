@@ -65,7 +65,8 @@ Vielleicht fragst Du Dich unterdessen, wozu der ganze Exkurs über CSV dienlich 
 **Wie es NICHT funktioniert:**
 Ein Doppelklicken auf eine CSV-Datei - wie in unten gezeigter Animation gezeigt - funktioniert leider in den meisten Fällen nicht. Obwohl man gemäss des im Beispiel angezeigten Icons der Datei das Gefühl hätte, dass dies so möglich sein sollte. Folgendes geschieht jedoch stattdessen: 
 
-<img src="https://user-images.githubusercontent.com/2479732/104017881-32528300-51b9-11eb-8d15-39debf3c426a.gif" alt="ExcelFail" />
+<video src="https://user-images.githubusercontent.com/2479732/105727214-25f55680-5f2b-11eb-8d62-e1d64c5bbd65.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="02_excelissue" src="https://user-images.githubusercontent.com/2479732/104017881-32528300-51b9-11eb-8d15-39debf3c426a.gif"/></video>
+
 
 Die CSV-Datei wird zwar in Excel geöffnet, es findet dabei jedoch keine Trennung der einzelnen Attribute in Spalten statt (vgl. mit der oben gezeigten Tabelle). Mit der hier gezeigten Vorgehensweise sind alle Werte in eine Spalte (hier Spalte A) eingefügt worden. Damit lässt sich nicht bequem weiterarbeiten.
 [*NACHTRAG: wir wurden nach dem Crashkurs drauf aufmerksam gemacht, dass das hier beschriebene Problem anstelle des gleich folgenden Lösungsbeschriebs alternativ auch mit folgenden Schritten behoben werden könnte: Wähle im Menu* **Daten** *>* **Text in Spalten** *.*]
@@ -87,7 +88,8 @@ Damit ihr wie erwartet, basierend auf einem CSV-Datensatz, in Excel weiterarbeit
   
 - **Schritt 5:** Bestätige mit **OK** den Import in das aktuelle Arbeitsblatt Deines Excelfiles. Voilà, die Daten liegen nun so vor, dass Du mit den Hundedaten nun weiterarbeiten kannst.
 
-<img src="https://user-images.githubusercontent.com/2479732/104021668-747ec300-51bf-11eb-859d-23aecceabee3.gif" alt="csvImport" />
+<video src="https://user-images.githubusercontent.com/2479732/105727303-3c9bad80-5f2b-11eb-8f49-09dbaae53c0e.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="03_csv_import" src="https://user-images.githubusercontent.com/2479732/104021668-747ec300-51bf-11eb-859d-23aecceabee3.gif"/></video>
+
 
 - **Schritt 6:** Überschreibe unten links den Arbeitsblattnamen von *Tabelle 1* auf *Hundebestand_2020*. Dies erfolgt ganz einfach, indem Du auf den Text *Tabelle 1* doppelklickst und ihn dann überschreibst.
 
