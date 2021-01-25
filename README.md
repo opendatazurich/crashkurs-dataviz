@@ -234,14 +234,14 @@ Um die Daten von Excel zu Datawrapper zu importieren, kann der [Wizard von Dataw
 - **Schritt 2:** Klick auf **Weiter** und anschliessend die Daten überprüfen (Sind alle Spalten da? Wurden die Datentypen richtig erkannt?)
 - **Schritt 3:** Um männlich/weiblich als Kategorien zu nutzen für jedes Quartier, sollte die Tabelle noch transponiert werden (Spalten und Zeilen vertauschen)
 
-![Daten zu Datawrapper kopieren](https://user-images.githubusercontent.com/538415/104389217-3ffe6480-553b-11eb-8b28-3d5041e2565a.gif)
+<video preload="none" poster="https://user-images.githubusercontent.com/538415/104389217-3ffe6480-553b-11eb-8b28-3d5041e2565a.gif" src="https://user-images.githubusercontent.com/538415/105729060-1e36b180-5f2d-11eb-8510-e8882f2312df.mp4" controls="controls" muted="muted" style="max-height:640px;">
+<img alt="Daten zu Datawrapper kopieren" src="https://user-images.githubusercontent.com/538415/104389217-3ffe6480-553b-11eb-8b28-3d5041e2565a.gif"/></video>
 
 ### Diagramm erstellen
 Im letzten Schritt geht es jetzt noch darum, das Diagramm zu definieren.
 Die vorliegenden Daten zeigen pro Quartier die Anzahl weibliche und die Anzahl männliche Hunde.
 Es liegt daher nahe ein gestapeltes Säulendiagramm zu erstellen, da ein Balken pro Quartier für alle Hunde steht und dieser nach Geschlecht aufgeteilt ist.
 
-![Diagramm anpassen](https://user-images.githubusercontent.com/538415/104390094-35dd6580-553d-11eb-9eef-a77456092750.gif)
 <video preload="none" poster="https://user-images.githubusercontent.com/538415/104390094-35dd6580-553d-11eb-9eef-a77456092750.gif" src="https://user-images.githubusercontent.com/538415/105729302-5ccc6c00-5f2d-11eb-80ae-a859f9008b44.mp4" controls="controls" muted="muted" style="max-height:640px;">
 <img alt="Diagramm anpassen" src="https://user-images.githubusercontent.com/538415/104390094-35dd6580-553d-11eb-9eef-a77456092750.gif"/></video>
 
