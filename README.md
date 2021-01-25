@@ -71,9 +71,9 @@ Ein Doppelklicken auf eine CSV-Datei - wie in unten gezeigter Animation gezeigt 
 Die CSV-Datei wird zwar in Excel geöffnet, es findet dabei jedoch keine Trennung der einzelnen Attribute in Spalten statt (vgl. mit der oben gezeigten Tabelle). Mit der hier gezeigten Vorgehensweise sind alle Werte in eine Spalte (hier Spalte A) eingefügt worden. Damit lässt sich nicht bequem weiterarbeiten.
 [*NACHTRAG: wir wurden nach dem Crashkurs drauf aufmerksam gemacht, dass das hier beschriebene Problem anstelle des gleich folgenden Lösungsbeschriebs alternativ auch mit folgenden Schritten behoben werden könnte: Wähle im Menu* **Daten** *>* **Text in Spalten** *.*]
 
-**Der Clou: CSV-Datei muss IMPORTIERT werden**
+**Der Clou: CSV-Datei IMPORTIERTEN**
 
-Damit ihr wie erwartet, basierend auf einem CSV-Datensatz, in Excel weiterarbeiten könnt, müsst ihr den CSV-Datensatz **importieren**. Dazu müsst ihr folgendermassen vorgehen:
+Damit ihr wie erwartet, basierend auf einem CSV-Datensatz, in Excel weiterarbeiten könnt, solltet ihr den CSV-Datensatz **importieren**. Dazu könnt ihr folgendermassen vorgehen:
 
 - **Schritt 1:** Öffne eine neue leere Exceldatei und speichere Sie in Dein Verzeichnis, wo Du bereits die beiden CSV-Datensätze abgelegt hast ( `20200306_hundehalter.csv` und `BEV390OD3903.csv`). Gib dem Excelfile einen Namen, z.B. `Kleinkinder_und_Hunde.xlsx`.
 
