@@ -136,7 +136,7 @@ Als nächstes gehen wir analog der vorherigen Schritte vor und analysieren nun, 
   - c) **SPALTEN**: auch hier könnten weitere Ausprägungen ausgewählt werden, wie z.B. die Rasse, die Farbe, das Geburtsjahr oder das Geschlecht des Hundes. Für unsere Fragestellung sind diese Attribute jedoch nicht relevant. Deshalb bleibt dieser Bereich leer.
   - d) **FILTER**: eine Filtervariable benötigen wir dieses Mal nicht, weil sich die Daten ja lediglich auf ein Jahr beziehen. Eine weitere Ausscheidung von Attributwerten ist auch nicht notwendig. Dehalb bleibt dieser Bereich auch leer.
 
-<video src="https://user-images.githubusercontent.com/2479732/105728095-0ad71680-5f2c-11eb-9533-ed3e6d19e3cd.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="06_hundebest_pivot" src="https://user-images.githubusercontent.com/2479732/104046181-f8e13e00-51df-11eb-8c74-4f3e15db1f8f.gif"/></video>
+<video preload="none" poster="https://user-images.githubusercontent.com/2479732/104046181-f8e13e00-51df-11eb-8c74-4f3e15db1f8f.gif" src="https://user-images.githubusercontent.com/2479732/105728095-0ad71680-5f2c-11eb-9533-ed3e6d19e3cd.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="06_hundebest_pivot" src="https://user-images.githubusercontent.com/2479732/104046181-f8e13e00-51df-11eb-8c74-4f3e15db1f8f.gif"/></video>
 
 - **Schritt 4:** Damit haben wir nun die Anzahl Hunde pro Stadtquartier als Tabelle. Benenne das Arbeitsblatt wieder, z.B. mit `HundeBest2020_Pivot`.
 
@@ -149,7 +149,7 @@ Damit wir die Resultate der Anzahl Hunde und Anzahl Kleinkinder pro Stadtquartie
 
 - **Schritt 3:** Mache das gleiche mit den Werten zur Anzahl Hunde pro Stadtquartier und füge sie mit etwas Abstand rechts ins neue Arbeitsblatt ein. 
 
-<video src="https://user-images.githubusercontent.com/2479732/105728266-3f4ad280-5f2c-11eb-92e2-092bca21b723.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="07_results" src="https://user-images.githubusercontent.com/2479732/104167948-86e64000-53fd-11eb-9a1a-152601170a01.gif"/></video>
+<video preload="none" poster="https://user-images.githubusercontent.com/2479732/104167948-86e64000-53fd-11eb-9a1a-152601170a01.gif" src="https://user-images.githubusercontent.com/2479732/105728266-3f4ad280-5f2c-11eb-92e2-092bca21b723.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="07_results" src="https://user-images.githubusercontent.com/2479732/104167948-86e64000-53fd-11eb-9a1a-152601170a01.gif"/></video>
 
 - **Schritt 4:** Wir haben nun das Problem, dass bei den Kleinkindern die Namen und bei den Hunden die IDs der Stadtquartiere angegeben sind. So lassen sich die Werte nicht vergleichen. Daher braucht es hier noch einen Zwischenschritt, in dem wir eine **Zuordungstabelle** von Stadtquartier-IDs zu den -Namen machen.
 
@@ -167,7 +167,7 @@ Damit wir die Resultate der Anzahl Hunde und Anzahl Kleinkinder pro Stadtquartie
 
 - **Schritt 6:** Sortiere nun (Menu Daten > Sortieren) wie in der Grafik angezeigt zuerst die Werte der Anzahl Kleinkinder nach der Quartiernummer nach Grösse aufsteigend. Vergleiche ob die Quartiernummern mit jenen der Anzahl Hunde, ebenfalls nach Grösse aufsteigend sortiert, entspricht. Lösche danach die doppelt vorhandenen Spalten und reihe die Attibute nach Deinem Gusto aneinander.
 
-<video src="https://user-images.githubusercontent.com/2479732/105728349-57baed00-5f2c-11eb-9f0d-0816cac0298b.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="08_zuordungstab" src="https://user-images.githubusercontent.com/2479732/104171823-8badf280-5403-11eb-9dce-42cb5e4f97f9.gif"/></video>
+<video preload="none" poster="https://user-images.githubusercontent.com/2479732/104171823-8badf280-5403-11eb-9dce-42cb5e4f97f9.gif" src="https://user-images.githubusercontent.com/2479732/105728349-57baed00-5f2c-11eb-9f0d-0816cac0298b.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="08_zuordungstab" src="https://user-images.githubusercontent.com/2479732/104171823-8badf280-5403-11eb-9dce-42cb5e4f97f9.gif"/></video>
 
 - **Schritt 7:** Berechne in in einer neuen Spalte - im Beispiel namens Diff_Kkinder-Hunde - die Differenz zwischen der Anzahl Kleinkinder und der Anzahl Hunden. Berechne den Wert in der obersten Spalte mit der Formel '=D2 - C2' und ziehe den Punkt unten rechts im grünen Rechteck für alle Quartiere herunter. Die Formel wird so überall korrekt übernommen.
 
@@ -182,7 +182,7 @@ Damit wir die Resultate der Anzahl Hunde und Anzahl Kleinkinder pro Stadtquartie
 
 - **Schritt 10:** Falls Dir die Grafik noch zu umfangreich ist, kannst Du auch einzelne Bereiche herausfiltern. Gehe dazu wieder wie in Schritt 9b) vor und wähle dieses Mal *Wertefilter* aus. In der Animation werden z.B. nur jene Stadtquartiere angezeigt, wo die Differenz zwischen Kleinkindern und Hunden kleiner als 50 ist. Alle anderen Werte werden nicht angezeigt.
   
-<video src="https://user-images.githubusercontent.com/2479732/105728433-7325f800-5f2c-11eb-9517-f60f74ebbdb9.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="09_diagr" src="https://user-images.githubusercontent.com/2479732/104203191-26222c00-542c-11eb-8e0a-4c3016d04406.gif"/></video>
+<video preload="none" poster="https://user-images.githubusercontent.com/2479732/104203191-26222c00-542c-11eb-8e0a-4c3016d04406.gif" src="https://user-images.githubusercontent.com/2479732/105728433-7325f800-5f2c-11eb-9517-f60f74ebbdb9.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="09_diagr" src="https://user-images.githubusercontent.com/2479732/104203191-26222c00-542c-11eb-8e0a-4c3016d04406.gif"/></video>
 
 ## Überrascht vom Resultat?
 Nun haben wir also Gewissheit: Ende 2019 lebten nur im Stadtquartier **Lindenhof** (Bevölkerungszahl 2019: 1'009) im Kreis 1 mehr Hunde (27) als Kleinkinder (22). Bei allen Stadtquartieren im Kreis 1 war die Differenz zwischen Kleinkindern und Hunden relativ klein.
@@ -222,7 +222,7 @@ Dazu müssen wir eine neue Pivot-Tabelle erstellen, mit der wir die Werte für d
 - **Schritt 6:** Benenne die Spalten und Tabellenblätter aussagekräftig, z.B. männlich, weiblich und Quartier
 
 
-<video src="https://user-images.githubusercontent.com/538415/105688230-a307d800-5ef9-11eb-92e1-d16ba427a912.mp4" controls="controls" muted="muted" style="max-height:640px;">
+<video preload="none" poster="https://user-images.githubusercontent.com/538415/104387735-0a0bb100-5538-11eb-892d-a17ef0b0d17c.gif" src="https://user-images.githubusercontent.com/538415/105688230-a307d800-5ef9-11eb-92e1-d16ba427a912.mp4" controls="controls" muted="muted" style="max-height:640px;">
 <img alt="Zuordnungstabelle hinzufügen" src="https://user-images.githubusercontent.com/538415/104387735-0a0bb100-5538-11eb-892d-a17ef0b0d17c.gif"/></video>
 
 ### Daten in Datawrapper laden
