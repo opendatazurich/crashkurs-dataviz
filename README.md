@@ -243,7 +243,8 @@ Im letzten Schritt geht es jetzt noch darum, das Diagramm zu definieren.
 Die vorliegenden Daten zeigen pro Quartier die Anzahl weibliche und die Anzahl männliche Hunde.
 Es liegt daher nahe ein gestapeltes Säulendiagramm zu erstellen, da ein Balken pro Quartier für alle Hunde steht und dieser nach Geschlecht aufgeteilt ist.
 
-![Diagramm anpassen](https://user-images.githubusercontent.com/538415/104390094-35dd6580-553d-11eb-9eef-a77456092750.gif)
+<video src="https://user-images.githubusercontent.com/538415/105729302-5ccc6c00-5f2d-11eb-80ae-a859f9008b44.mp4" controls="controls" muted="muted" style="max-height:640px;">
+<img alt="Diagramm anpassen" src="https://user-images.githubusercontent.com/538415/104390094-35dd6580-553d-11eb-9eef-a77456092750.gif"/></video>
 
 ### Resultat
 Voilà, hier das Resultat (ein Klick auf das Bild öffnet die interaktive Grafik):
