@@ -96,9 +96,9 @@ Damit ihr wie erwartet, basierend auf einem CSV-Datensatz, in Excel weiterarbeit
 - **Schritt 7:** Füge nun - mit einem Klick auf das Plus-Zeichen - ein neues Arbeitsblatt hinzu und nenne es *Bevölkerungsbestand*.
 - **Schritt 8:** Importiere nun `BEV390OD3903.csv`wie ab Schritt 3 beschrieben in unser Excelfile `Kleinkinder_und_Hunde.xlsx`. Tipp: definiere beim Import die Spalte *AlterV05Kurz* als Text, weil sonst einzelne Werte als Datum interpretiert und falsch dargestellt werden.
 
-Damit sind wir fertig mit dem Datenimport. Unser Excelfile `Kleinkinder_und_Hunde.xlsx` beinhaltet nun zwei Arbeitsblätter mit den Hunde- und Bevölkerungsbestandsdaten, welche wir im nächsten Schritt analysieren werden.
+<video src="https://user-images.githubusercontent.com/2479732/105727511-740a5a00-5f2b-11eb-982c-da42620b0b9d.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="04_csv_import_bevag" src="https://user-images.githubusercontent.com/2479732/104026534-5a94ae80-51c6-11eb-8940-1b2ffcca7f3a.gif"/></video>
 
-<img src="https://user-images.githubusercontent.com/2479732/104026534-5a94ae80-51c6-11eb-8940-1b2ffcca7f3a.gif" alt="abschlussDatenImports" />
+Damit sind wir fertig mit dem Datenimport. Unser Excelfile `Kleinkinder_und_Hunde.xlsx` beinhaltet nun zwei Arbeitsblätter mit den Hunde- und Bevölkerungsbestandsdaten, welche wir im nächsten Schritt analysieren werden.
 
 ## Datenauswertung mit Excel 
 Excel ist bezüglich Datenanalyse selbstverständlich nicht allererste Sahne. Fortgeschrittenere Datennutzende verwenden in der Regel eher Statistiktools wie **[R](https://www.r-project.org/)** (siehe dazu Ressourcen, wie [Rddj](https://rddj.info/) oder [RStudio Education](https://education.rstudio.com/blog/2020/05/remote-roundup/)) oder **[Python](https://www.python.org/)** (siehe dazu Ressourcen, wie [Data analysis with Python](https://csmastersuh.github.io/data_analysis_with_python_2020/ ) oder [Information Visualization](https://infovis.fh-potsdam.de/tutorials/)). 
@@ -122,7 +122,7 @@ Beginnen wir zuerst einmal damit herauszufinden, wie viele Kleinkinder es pro St
   
 - **Schritt 4:** Damit haben wir nun bereits die erforderliche Tabelle und eine simple Grafik der Anzahl Kleinkinder pro Stadtquartier Ende 2019. Benenne das Arbeitsblatt wieder, z.B. mit `BevBest_Pivot`.
 
-<img src="https://user-images.githubusercontent.com/2479732/104037207-ac443580-51d4-11eb-8458-4ee22822d42d.gif" alt="BevBest_Pivot"/>
+<video src="https://user-images.githubusercontent.com/2479732/105727578-897f8400-5f2b-11eb-952d-3d28126196c3.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="05_bevbest_pivot" src="https://user-images.githubusercontent.com/2479732/104037207-ac443580-51d4-11eb-8458-4ee22822d42d.gif"/></video>
 
 ### Anzahl Hunde nach Stadtquartier
 Als nächstes gehen wir analog der vorherigen Schritte vor und analysieren nun, wie viele Hunde es pro Stadtquartier Anfangs März 2020 gab.
@@ -136,7 +136,7 @@ Als nächstes gehen wir analog der vorherigen Schritte vor und analysieren nun, 
   - c) **SPALTEN**: auch hier könnten weitere Ausprägungen ausgewählt werden, wie z.B. die Rasse, die Farbe, das Geburtsjahr oder das Geschlecht des Hundes. Für unsere Fragestellung sind diese Attribute jedoch nicht relevant. Deshalb bleibt dieser Bereich leer.
   - d) **FILTER**: eine Filtervariable benötigen wir dieses Mal nicht, weil sich die Daten ja lediglich auf ein Jahr beziehen. Eine weitere Ausscheidung von Attributwerten ist auch nicht notwendig. Dehalb bleibt dieser Bereich auch leer.
 
-<img src="https://user-images.githubusercontent.com/2479732/104046181-f8e13e00-51df-11eb-8c74-4f3e15db1f8f.gif" alt="HundeBest_Pivot"/>
+<video src="https://user-images.githubusercontent.com/2479732/105728095-0ad71680-5f2c-11eb-9533-ed3e6d19e3cd.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="06_hundebest_pivot" src="https://user-images.githubusercontent.com/2479732/104046181-f8e13e00-51df-11eb-8c74-4f3e15db1f8f.gif"/></video>
 
 - **Schritt 4:** Damit haben wir nun die Anzahl Hunde pro Stadtquartier als Tabelle. Benenne das Arbeitsblatt wieder, z.B. mit `HundeBest2020_Pivot`.
 
@@ -149,7 +149,7 @@ Damit wir die Resultate der Anzahl Hunde und Anzahl Kleinkinder pro Stadtquartie
 
 - **Schritt 3:** Mache das gleiche mit den Werten zur Anzahl Hunde pro Stadtquartier und füge sie mit etwas Abstand rechts ins neue Arbeitsblatt ein. 
 
-<img src="https://user-images.githubusercontent.com/2479732/104167948-86e64000-53fd-11eb-9a1a-152601170a01.gif" alt="VergleicheResultate"/>
+<video src="https://user-images.githubusercontent.com/2479732/105728266-3f4ad280-5f2c-11eb-92e2-092bca21b723.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="07_results" src="https://user-images.githubusercontent.com/2479732/104167948-86e64000-53fd-11eb-9a1a-152601170a01.gif"/></video>
 
 - **Schritt 4:** Wir haben nun das Problem, dass bei den Kleinkindern die Namen und bei den Hunden die IDs der Stadtquartiere angegeben sind. So lassen sich die Werte nicht vergleichen. Daher braucht es hier noch einen Zwischenschritt, in dem wir eine **Zuordungstabelle** von Stadtquartier-IDs zu den -Namen machen.
 
@@ -167,8 +167,7 @@ Damit wir die Resultate der Anzahl Hunde und Anzahl Kleinkinder pro Stadtquartie
 
 - **Schritt 6:** Sortiere nun (Menu Daten > Sortieren) wie in der Grafik angezeigt zuerst die Werte der Anzahl Kleinkinder nach der Quartiernummer nach Grösse aufsteigend. Vergleiche ob die Quartiernummern mit jenen der Anzahl Hunde, ebenfalls nach Grösse aufsteigend sortiert, entspricht. Lösche danach die doppelt vorhandenen Spalten und reihe die Attibute nach Deinem Gusto aneinander.
 
-<img src="https://user-images.githubusercontent.com/2479732/104171823-8badf280-5403-11eb-9dce-42cb5e4f97f9.gif" alt="Zuordnungstabelle_Sort"/>
-
+<video src="https://user-images.githubusercontent.com/2479732/105728349-57baed00-5f2c-11eb-9f0d-0816cac0298b.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="08_zuordungstab" src="https://user-images.githubusercontent.com/2479732/104171823-8badf280-5403-11eb-9dce-42cb5e4f97f9.gif"/></video>
 
 - **Schritt 7:** Berechne in in einer neuen Spalte - im Beispiel namens Diff_Kkinder-Hunde - die Differenz zwischen der Anzahl Kleinkinder und der Anzahl Hunden. Berechne den Wert in der obersten Spalte mit der Formel '=D2 - C2' und ziehe den Punkt unten rechts im grünen Rechteck für alle Quartiere herunter. Die Formel wird so überall korrekt übernommen.
 
@@ -183,8 +182,7 @@ Damit wir die Resultate der Anzahl Hunde und Anzahl Kleinkinder pro Stadtquartie
 
 - **Schritt 10:** Falls Dir die Grafik noch zu umfangreich ist, kannst Du auch einzelne Bereiche herausfiltern. Gehe dazu wieder wie in Schritt 9b) vor und wähle dieses Mal *Wertefilter* aus. In der Animation werden z.B. nur jene Stadtquartiere angezeigt, wo die Differenz zwischen Kleinkindern und Hunden kleiner als 50 ist. Alle anderen Werte werden nicht angezeigt.
   
-<img src="https://user-images.githubusercontent.com/2479732/104203191-26222c00-542c-11eb-8e0a-4c3016d04406.gif" alt="DiagrammErstellen"/>
-
+<video src="https://user-images.githubusercontent.com/2479732/105728433-7325f800-5f2c-11eb-9517-f60f74ebbdb9.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="09_diagr" src="https://user-images.githubusercontent.com/2479732/104203191-26222c00-542c-11eb-8e0a-4c3016d04406.gif"/></video>
 
 ## Überrascht vom Resultat?
 Nun haben wir also Gewissheit: Ende 2019 lebten nur im Stadtquartier **Lindenhof** (Bevölkerungszahl 2019: 1'009) im Kreis 1 mehr Hunde (27) als Kleinkinder (22). Bei allen Stadtquartieren im Kreis 1 war die Differenz zwischen Kleinkindern und Hunden relativ klein.
@@ -236,16 +234,14 @@ Um die Daten von Excel zu Datawrapper zu importieren, kann der [Wizard von Dataw
 - **Schritt 2:** Klick auf **Weiter** und anschliessend die Daten überprüfen (Sind alle Spalten da? Wurden die Datentypen richtig erkannt?)
 - **Schritt 3:** Um männlich/weiblich als Kategorien zu nutzen für jedes Quartier, sollte die Tabelle noch transponiert werden (Spalten und Zeilen vertauschen)
 
-<video src="https://user-images.githubusercontent.com/538415/105729060-1e36b180-5f2d-11eb-8510-e8882f2312df.mp4" controls="controls" muted="muted" style="max-height:640px;">
-<img alt="Daten zu Datawrapper kopieren" src="https://user-images.githubusercontent.com/538415/104389217-3ffe6480-553b-11eb-8b28-3d5041e2565a.gif"/></video>
+![Daten zu Datawrapper kopieren](https://user-images.githubusercontent.com/538415/104389217-3ffe6480-553b-11eb-8b28-3d5041e2565a.gif)
 
 ### Diagramm erstellen
 Im letzten Schritt geht es jetzt noch darum, das Diagramm zu definieren.
 Die vorliegenden Daten zeigen pro Quartier die Anzahl weibliche und die Anzahl männliche Hunde.
 Es liegt daher nahe ein gestapeltes Säulendiagramm zu erstellen, da ein Balken pro Quartier für alle Hunde steht und dieser nach Geschlecht aufgeteilt ist.
 
-<video src="https://user-images.githubusercontent.com/538415/105729302-5ccc6c00-5f2d-11eb-80ae-a859f9008b44.mp4" controls="controls" muted="muted" style="max-height:640px;">
-<img alt="Diagramm anpassen" src="https://user-images.githubusercontent.com/538415/104390094-35dd6580-553d-11eb-9eef-a77456092750.gif"/></video>
+![Diagramm anpassen](https://user-images.githubusercontent.com/538415/104390094-35dd6580-553d-11eb-9eef-a77456092750.gif)
 
 ### Resultat
 Voilà, hier das Resultat (ein Klick auf das Bild öffnet die interaktive Grafik):
