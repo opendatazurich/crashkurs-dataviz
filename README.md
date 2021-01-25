@@ -13,14 +13,14 @@ Zur Beantwortung der Fragestellung benötigen wir die dazu relevanten Daten. Wir
 - **Schritt 1:** Rufe den Open Data Katalog der Stadt Zürich auf unter: [https://data.stadt-zuerich.ch/](https://data.stadt-zuerich.ch/)
 - **Schritt 2:** Suche nach Hundebestand pro Stadtquartier und Jahr. Gebe dazu im Suchfeld beispielsweise den Begriff «Hunde» und «Stadtquartier» ein. Beim Eintippen des Suchbegriffs werden bereits passende Vorschläge zu auf dem Katalog vorkommenden Daten angezeigt.  
 <img src="https://user-images.githubusercontent.com/2479732/103986721-847caf80-518b-11eb-839c-95953ead6f67.png" alt="Suchresultatvorschau"/>
+
 - **Schritt 3:** 
   - Wähle das Dataset «[Hundebestand der Stadt Zürich](https://data.stadt-zuerich.ch/dataset/sid_stapo_hundebestand)» aus und lies die Metadaten dazu. Besonders wichtig sind dabei die Attributbeschreibungen, welche die Ausprägungen der Informationen im Datensatz beschreiben. Hier sehen wir beispielsweise, dass es Angaben zu Hundehaltenden und Hunden gibt. Bereits in der ersten Attributbeschreibung zur technischen Identifikationsnummer der hundehaltenden Personen (`HALTER_ID`) erfahren wir eine sehr wichtige Information: ein Record (eine Zeile) im Datensatz entspricht einem Hund. Wenn demnach der gleiche Hundehaltende zwei Hunde hat, so kommt seine ID im Datensatz zweimal vor. Dank der Beschreibung können wir ebenfalls sicher sein, dass die Stadtquartiere in den Daten vorkommen. Weiterführende wichtige Informationen sind auch unter *Bemerkungen* zu finden. 
   - Die Datensätze selber sind unter *Daten und Ressourcen* zu finden. Wähle dort den aktuellsten Datensatz (2020) aus und klicke darauf. 
   - Dadurch öffnet sich eine neue Webseite, welche den Downloadlink und eine einfache Datenvorschau beinhaltet.
   - Klicke nun auf den Downloadlink, um die Daten herunter zu laden.
+  <img src="https://user-images.githubusercontent.com/2479732/103988953-3669ab00-518f-11eb-99ab-0ca362d5cb0c.gif" alt="Dataset anschauen und Ressource downloaden" />
   
-  <video src="https://user-images.githubusercontent.com/2479732/105727018-ee86aa00-5f2a-11eb-8f33-90a597fd2658.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="01_hundebestand_download" src="https://user-images.githubusercontent.com/2479732/103988953-3669ab00-518f-11eb-99ab-0ca362d5cb0c.gif"/></video>
-
 - **Schritt 4:** Suche nach einem Datensatz, der die Anzahl Kleinkinder pro Stadtquartier und Jahr beinhaltet. Da für die Definition eines Kleinkindes das Alter relevant ist, suchen wir also einen Datensatz, welcher das Alter der Bevölkerung nach Stadtquartier und Jahr beinhaltet. Gib daher im Suchfeld beispielsweise die Begriffe «Alter» und «Stadtquartier» ein. Als [Suchresultat](https://data.stadt-zuerich.ch/dataset?q=alter+stadtquartier&sort=score+desc%2C+date_last_modified+desc) erscheinen nun aber 35 Datensätze. Wir sollte daher noch einen besseren Begriff wählen. Verwende daher die Begriffe «Altersjahr» und «Stadtquartier», dadurch sind es nur noch 8 [Resultate](https://data.stadt-zuerich.ch/dataset?q=altersjahr+stadtquartier&sort=score+desc%2C+date_last_modified+desc).
 
 - **Schritt 5:** Für unsere Fragestellung ist der Datensatz «[Bevölkerung nach Stadtquartier, Herkunft, Geschlecht und Alter, seit 1993](https://data.stadt-zuerich.ch/dataset/bev_bestand_jahr_quartier_alter_herkunft_geschlecht_od3903)» am geeignetsten. Er beinhaltet zwar mehr Informationen als wir benötigen (die Herkunft oder das Geschlecht interessieren uns eigentlich weniger), aber wir werden sie in einem späteren Schritt mit Excel herausfiltern.
@@ -65,8 +65,7 @@ Vielleicht fragst Du Dich unterdessen, wozu der ganze Exkurs über CSV dienlich 
 **Wie es NICHT funktioniert:**
 Ein Doppelklicken auf eine CSV-Datei - wie in unten gezeigter Animation gezeigt - funktioniert leider in den meisten Fällen nicht. Obwohl man gemäss des im Beispiel angezeigten Icons der Datei das Gefühl hätte, dass dies so möglich sein sollte. Folgendes geschieht jedoch stattdessen: 
 
-<video src="https://user-images.githubusercontent.com/2479732/105727214-25f55680-5f2b-11eb-8d62-e1d64c5bbd65.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="02_excelissue" src="https://user-images.githubusercontent.com/2479732/104017881-32528300-51b9-11eb-8d15-39debf3c426a.gif"/></video>
-
+<img src="https://user-images.githubusercontent.com/2479732/104017881-32528300-51b9-11eb-8d15-39debf3c426a.gif" alt="ExcelFail" />
 
 Die CSV-Datei wird zwar in Excel geöffnet, es findet dabei jedoch keine Trennung der einzelnen Attribute in Spalten statt (vgl. mit der oben gezeigten Tabelle). Mit der hier gezeigten Vorgehensweise sind alle Werte in eine Spalte (hier Spalte A) eingefügt worden. Damit lässt sich nicht bequem weiterarbeiten.
 [*NACHTRAG: wir wurden nach dem Crashkurs drauf aufmerksam gemacht, dass das hier beschriebene Problem anstelle des gleich folgenden Lösungsbeschriebs alternativ auch mit folgenden Schritten behoben werden könnte: Wähle im Menu* **Daten** *>* **Text in Spalten** *.*]
@@ -88,8 +87,7 @@ Damit ihr wie erwartet, basierend auf einem CSV-Datensatz, in Excel weiterarbeit
   
 - **Schritt 5:** Bestätige mit **OK** den Import in das aktuelle Arbeitsblatt Deines Excelfiles. Voilà, die Daten liegen nun so vor, dass Du mit den Hundedaten nun weiterarbeiten kannst.
 
-<video src="https://user-images.githubusercontent.com/2479732/105727303-3c9bad80-5f2b-11eb-8f49-09dbaae53c0e.mp4" controls="controls" muted="muted" style="max-height:640px;"><img alt="03_csv_import" src="https://user-images.githubusercontent.com/2479732/104021668-747ec300-51bf-11eb-859d-23aecceabee3.gif"/></video>
-
+<img src="https://user-images.githubusercontent.com/2479732/104021668-747ec300-51bf-11eb-859d-23aecceabee3.gif" alt="csvImport" />
 
 - **Schritt 6:** Überschreibe unten links den Arbeitsblattnamen von *Tabelle 1* auf *Hundebestand_2020*. Dies erfolgt ganz einfach, indem Du auf den Text *Tabelle 1* doppelklickst und ihn dann überschreibst.
 
@@ -236,14 +234,19 @@ Um die Daten von Excel zu Datawrapper zu importieren, kann der [Wizard von Dataw
 - **Schritt 2:** Klick auf **Weiter** und anschliessend die Daten überprüfen (Sind alle Spalten da? Wurden die Datentypen richtig erkannt?)
 - **Schritt 3:** Um männlich/weiblich als Kategorien zu nutzen für jedes Quartier, sollte die Tabelle noch transponiert werden (Spalten und Zeilen vertauschen)
 
-![Daten zu Datawrapper kopieren](https://user-images.githubusercontent.com/538415/104389217-3ffe6480-553b-11eb-8b28-3d5041e2565a.gif)
+
+<video src="https://user-images.githubusercontent.com/538415/105729060-1e36b180-5f2d-11eb-8510-e8882f2312df.mp4" controls="controls" muted="muted" style="max-height:640px;">
+<img alt="Daten zu Datawrapper kopieren" src="https://user-images.githubusercontent.com/538415/104389217-3ffe6480-553b-11eb-8b28-3d5041e2565a.gif"/></video>
 
 ### Diagramm erstellen
 Im letzten Schritt geht es jetzt noch darum, das Diagramm zu definieren.
 Die vorliegenden Daten zeigen pro Quartier die Anzahl weibliche und die Anzahl männliche Hunde.
 Es liegt daher nahe ein gestapeltes Säulendiagramm zu erstellen, da ein Balken pro Quartier für alle Hunde steht und dieser nach Geschlecht aufgeteilt ist.
 
-![Diagramm anpassen](https://user-images.githubusercontent.com/538415/104390094-35dd6580-553d-11eb-9eef-a77456092750.gif)
+
+<video src="https://user-images.githubusercontent.com/538415/105729302-5ccc6c00-5f2d-11eb-80ae-a859f9008b44.mp4" controls="controls" muted="muted" style="max-height:640px;">
+<img alt="Diagramm anpassen" src="https://user-images.githubusercontent.com/538415/104390094-35dd6580-553d-11eb-9eef-a77456092750.gif"/></video>
+
 
 ### Resultat
 Voilà, hier das Resultat (ein Klick auf das Bild öffnet die interaktive Grafik):
