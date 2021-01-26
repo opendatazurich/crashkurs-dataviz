@@ -234,7 +234,7 @@ Um die Daten von Excel zu Datawrapper zu importieren, kann der [Wizard von Dataw
 - **Schritt 2:** Klick auf **Weiter** und anschliessend die Daten überprüfen (Sind alle Spalten da? Wurden die Datentypen richtig erkannt?)
 - **Schritt 3:** Um männlich/weiblich als Kategorien zu nutzen für jedes Quartier, sollte die Tabelle noch transponiert werden (Spalten und Zeilen vertauschen)
 
-<video preload="none" poster="https://user-images.githubusercontent.com/538415/104389217-3ffe6480-553b-11eb-8b28-3d5041e2565a.gif" src="https://user-images.githubusercontent.com/538415/105729060-1e36b180-5f2d-11eb-8510-e8882f2312df.mp4" controls="controls" muted="muted" style="max-height:640px;">
+<video preload="none" poster="https://user-images.githubusercontent.com/538415/105815234-e83c1080-5fb2-11eb-9f70-069444325f76.jpg" src="https://user-images.githubusercontent.com/538415/105729060-1e36b180-5f2d-11eb-8510-e8882f2312df.mp4" controls="controls" muted="muted" style="max-height:640px;">
 <img alt="Daten zu Datawrapper kopieren" src="https://user-images.githubusercontent.com/538415/104389217-3ffe6480-553b-11eb-8b28-3d5041e2565a.gif"/></video>
 
 ### Diagramm erstellen
